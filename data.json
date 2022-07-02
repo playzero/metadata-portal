@@ -6,7 +6,7 @@
     "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
     "unit": "UNIT",
     "base58prefix": 6,
-    "logo": "bifrost",
+    "logo": "Bifrost_Kusama.svg",
     "decimals": 0,
     "metadataVersion": 944,
     "metadataQr": {
@@ -33,7 +33,7 @@
     "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
     "unit": "UNIT",
     "base58prefix": 10,
-    "logo": "acala",
+    "logo": "Acala.svg",
     "decimals": 0,
     "metadataVersion": 2082,
     "metadataQr": {
@@ -60,7 +60,7 @@
     "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
     "unit": "KSM",
     "base58prefix": 2,
-    "logo": "statemine",
+    "logo": "Statemine.svg",
     "decimals": 12,
     "metadataVersion": 9230,
     "metadataQr": {
@@ -87,7 +87,7 @@
     "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
     "unit": "UNIT",
     "base58prefix": 8,
-    "logo": "karura",
+    "logo": "Karura.svg",
     "decimals": 0,
     "metadataVersion": 2082,
     "metadataQr": {
@@ -114,7 +114,7 @@
     "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
     "unit": "HKO",
     "base58prefix": 110,
-    "logo": "heiko",
+    "logo": "ParallelHeiko.svg",
     "decimals": 12,
     "metadataVersion": 188,
     "metadataQr": {
@@ -141,7 +141,7 @@
     "genesisHash": "0x67f9723393ef76214df0118c34bbbd3dbebc8ed46a10973a8c969d48fe7598c9",
     "unit": "WND",
     "base58prefix": 42,
-    "logo": "westmint",
+    "logo": "Westmint_Testnet.svg",
     "decimals": 12,
     "metadataVersion": 9230,
     "metadataQr": {
@@ -168,7 +168,7 @@
     "genesisHash": "0x5c562e6300954998233c9a40b6b86f3028977e6d32d0da1af207738d19f98c1b",
     "unit": "UNIT",
     "base58prefix": 42,
-    "logo": "mandala",
+    "logo": "Acala_Mandala_Testnet.svg",
     "decimals": 0,
     "metadataVersion": 2064,
     "metadataQr": {
