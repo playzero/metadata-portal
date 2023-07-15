@@ -1,299 +1,2158 @@
 {
-  "bifrost": {
-    "name": "bifrost",
-    "color": "#5a25f0",
-    "rpcEndpoint": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-    "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
-    "unit": "UNIT",
-    "base58prefix": 6,
-    "logo": "Bifrost_Kusama.svg",
-    "decimals": 0,
-    "metadataVersion": 944,
+  "polkadot": {
+    "title": "Polkadot",
+    "color": "#e6007a",
+    "rpcEndpoint": "wss://rpc.polkadot.io",
+    "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+    "unit": "DOT",
+    "base58prefix": 0,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot.svg",
+    "decimals": 10,
+    "liveMetaVersion": 9420,
     "metadataQr": {
-      "path": "/qr/bifrost_metadata_944.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://bifrost-parachain.api.onfinality.io/public-ws",
-        "block": "0x76e48b62ce4e1bcc7a332757338e78129bc394cd664b8366c892a983b0fe2125"
+      "version": 9420,
+      "file": {
+        "path": "qr/polkadot_metadata_9420.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Wasm",
+          "github_repo": "paritytech/polkadot",
+          "hash": "0x68708ed16071983a5a20968f6cd94989fa43834242c16fca5cdd58fb73d54e1f"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/polkadot_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/bifrost_specs.png",
-      "signedBy": "Novasama Technologies",
+      "path": "qr/polkadot_specs.png",
+      "signedBy": "Parity",
       "source": null
-    }
+    },
+    "testnet": false
   },
-  "acala": {
-    "name": "acala",
-    "color": "#645AFF",
-    "rpcEndpoint": "wss://acala-rpc.dwellir.com",
-    "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-    "unit": "UNIT",
-    "base58prefix": 10,
-    "logo": "Acala.svg",
-    "decimals": 0,
-    "metadataVersion": 2082,
+  "kusama": {
+    "title": "Kusama",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc.ibp.network/kusama",
+    "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama.svg",
+    "decimals": 12,
+    "liveMetaVersion": 9430,
     "metadataQr": {
-      "path": "/qr/acala_metadata_2082.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://acala-rpc.dwellir.com",
-        "block": "0xd2916dc40924d378e5fa42630103a50067950f1210ab844618a5ee0a30cfe715"
+      "version": 9430,
+      "file": {
+        "path": "qr/kusama_metadata_9430.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Wasm",
+          "github_repo": "paritytech/polkadot",
+          "hash": "0x67999f8cc63634bee01b20e0266c5fc28b79647310024cc534bdc3318a76e17a"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/kusama_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/acala_specs.png",
-      "signedBy": "Novasama Technologies",
+      "path": "qr/kusama_specs.png",
+      "signedBy": "Parity",
       "source": null
-    }
+    },
+    "testnet": false
+  },
+  "westend": {
+    "title": "Westend",
+    "color": "#f27230",
+    "rpcEndpoint": "wss://westend-rpc.polkadot.io",
+    "genesisHash": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+    "unit": "WND",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Westend_Testnet.svg",
+    "decimals": 12,
+    "liveMetaVersion": 9430,
+    "metadataQr": {
+      "version": 9430,
+      "file": {
+        "path": "qr/westend_metadata_9430.apng",
+        "signedBy": "Parity",
+        "source": {
+          "type": "Rpc",
+          "block": "0x93833b264a414975deb0502aa4b720c14b35f0b0b85c957816a26a0acb76bb50"
+        }
+      }
+    },
+    "latestMetadata": "qr/westend_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/westend_specs.png",
+      "signedBy": "Parity",
+      "source": null
+    },
+    "testnet": true
   },
   "statemine": {
-    "name": "statemine",
+    "title": "Kusama Asset Hub",
     "color": "#113911",
-    "rpcEndpoint": "wss://statemine-rpc.polkadot.io",
+    "rpcEndpoint": "wss://statemine.api.onfinality.io/public-ws",
     "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
     "unit": "KSM",
     "base58prefix": 2,
-    "logo": "Statemine.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
-    "metadataVersion": 9230,
+    "liveMetaVersion": 9430,
     "metadataQr": {
-      "path": "/qr/statemine_metadata_9230.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://statemine-rpc.polkadot.io",
-        "block": "0xc46bb6de789caf5085bfe7a6212f21bb9df8aa3756ceebf029db11dcc472fff2"
+      "version": 9430,
+      "file": {
+        "path": "qr/statemine_metadata_9430.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb1b84a842c4e3bdaa0008d7c7637f28e7f37c00076e459dd7aa85791199539b4"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/statemine_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/statemine_specs.png",
+      "path": "qr/statemine_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
-    }
+    },
+    "testnet": false
   },
   "karura": {
-    "name": "karura",
+    "title": "Karura",
     "color": "#ff4c3b",
-    "rpcEndpoint": "wss://karura-rpc-0.aca-api.network",
+    "rpcEndpoint": "wss://karura-rpc.dwellir.com",
     "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
     "unit": "UNIT",
     "base58prefix": 8,
-    "logo": "Karura.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Karura.svg",
     "decimals": 0,
-    "metadataVersion": 2082,
+    "liveMetaVersion": 2180,
     "metadataQr": {
-      "path": "/qr/karura_metadata_2082.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://karura-rpc-0.aca-api.network",
-        "block": "0x45913148a4d3d4a0cbb24ca16acb6b434328f5cb2008c43b22586384117d42d3"
+      "version": 2180,
+      "file": {
+        "path": "qr/karura_metadata_2180.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xab9e735d1371119a1d1a606239dcee7b7af554761ded506864010e53e205b40c"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/karura_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/karura_specs.png",
+      "path": "qr/karura_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
-    }
+    },
+    "testnet": false
   },
-  "heiko": {
-    "name": "heiko",
-    "color": "#42d5de",
-    "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
-    "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
-    "unit": "HKO",
-    "base58prefix": 110,
-    "logo": "ParallelHeiko.svg",
-    "decimals": 12,
-    "metadataVersion": 188,
+  "moonbeam": {
+    "title": "Moonbeam",
+    "color": "#53cbc9",
+    "rpcEndpoint": "wss://wss.api.moonbeam.network",
+    "genesisHash": "0xfe58ea77779b7abda7da4ec526d14db9b1e9cd40a217c34892af80a9b332b76d",
+    "unit": "GLMR",
+    "base58prefix": 1284,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
+    "decimals": 18,
+    "liveMetaVersion": 2302,
     "metadataQr": {
-      "path": "/qr/heiko_metadata_188.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://heiko-rpc.parallel.fi",
-        "block": "0xadfac86ac6bcd1985e8f5ad9f1195cd98027c0dbfe5930a63a1c3b4cbab76814"
+      "version": 2302,
+      "file": {
+        "path": "qr/moonbeam_metadata_2302.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xea094fa2a47628f1f4569d9dc91178059a4f7da41265ece56d12b4b68db662ed"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/moonbeam_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/heiko_specs.png",
+      "path": "qr/moonbeam_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
-    }
+    },
+    "testnet": false
+  },
+  "moonriver": {
+    "title": "Moonriver",
+    "color": "#0E132E",
+    "rpcEndpoint": "wss://wss.api.moonriver.moonbeam.network",
+    "genesisHash": "0x401a1f9dca3da46f5c4091016c8a2f26dcea05865116b286f60f668207d1474b",
+    "unit": "MOVR",
+    "base58prefix": 1285,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonriver.svg",
+    "decimals": 18,
+    "liveMetaVersion": 2401,
+    "metadataQr": null,
+    "latestMetadata": "qr/moonriver_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/moonriver_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
   },
   "shiden": {
-    "name": "shiden",
+    "title": "Shiden",
     "color": "#5923B2",
     "rpcEndpoint": "wss://rpc.shiden.astar.network",
     "genesisHash": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
     "unit": "SDN",
     "base58prefix": 5,
-    "logo": "Shiden.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "metadataVersion": 59,
+    "liveMetaVersion": 100,
     "metadataQr": {
-      "path": "/qr/shiden_metadata_59.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://rpc.shiden.astar.network",
-        "block": "0xd845384fc186d248dd3aef71cfe964d687d0461e235042420a0eeb08a3413cfa"
+      "version": 100,
+      "file": {
+        "path": "qr/shiden_metadata_100.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x4ddcbae45cf7cb03a1ca269d916e927d755d42a3b26294658a91bf66583e6c18"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/shiden_specs.png",
+      "path": "qr/shiden_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
-    }
+    },
+    "testnet": false
+  },
+  "bifrost": {
+    "title": "Bifrost Kusama",
+    "color": "#5a25f0",
+    "rpcEndpoint": "wss://bifrost-rpc.liebi.com/ws",
+    "genesisHash": "0x9f28c6a68e0fc9646eff64935684f6eeeece527e37bbe1f213d22caa1d9d6bed",
+    "unit": "UNIT",
+    "base58prefix": 6,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
+    "decimals": 0,
+    "liveMetaVersion": 976,
+    "metadataQr": {
+      "version": 976,
+      "file": {
+        "path": "qr/bifrost_metadata_976.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xccdff0c81dbdab40bc0fbf9e4ccc7f1dd581b000b0536f0e745fd3e7f03629ba"
+        }
+      }
+    },
+    "latestMetadata": "qr/bifrost_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bifrost_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
   },
   "basilisk": {
-    "name": "basilisk",
+    "title": "Basilisk",
     "color": "#9eec1b",
-    "rpcEndpoint": "wss://rpc-01.basilisk.hydradx.io",
+    "rpcEndpoint": "wss://rpc.basilisk.cloud",
     "genesisHash": "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
     "unit": "BSX",
     "base58prefix": 10041,
-    "logo": "Basilisk.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Basilisk.svg",
     "decimals": 12,
-    "metadataVersion": 55,
+    "liveMetaVersion": 101,
     "metadataQr": {
-      "path": "/qr/basilisk_metadata_55.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://rpc-01.basilisk.hydradx.io",
-        "block": "0xae1873d3230212e8ff0517cfe38e046d284afca0dd75ec99af3918302e827bb7"
+      "version": 101,
+      "file": {
+        "path": "qr/basilisk_metadata_101.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xbbd2d55a40f3a2c004a7aae36f1023128473a3b04111bf5d2d2e9264a1ce9921"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/basilisk_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/basilisk_specs.png",
+      "path": "qr/basilisk_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
-    }
+    },
+    "testnet": false
   },
   "altair": {
-    "name": "altair",
+    "title": "Altair",
     "color": "#ffb700",
     "rpcEndpoint": "wss://fullnode.altair.centrifuge.io",
     "genesisHash": "0xaa3876c1dc8a1afcc2e9a685a49ff7704cfd36ad8c90bf2702b9d1b00cc40011",
     "unit": "AIR",
     "base58prefix": 136,
-    "logo": "Altair.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Altair.svg",
     "decimals": 18,
-    "metadataVersion": 1015,
+    "liveMetaVersion": 1027,
     "metadataQr": {
-      "path": "/qr/altair_metadata_1015.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://fullnode.altair.centrifuge.io",
-        "block": "0xda956268aebea08e6af328a8bd3c35730062e4895f13b782d8018a373cd350b7"
+      "version": 1027,
+      "file": {
+        "path": "qr/altair_metadata_1027.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1e03bff9ed2ba83c6674d12a974224a17e54b009de68ec591e7e86e79145057a"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/altair_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/altair_specs.png",
+      "path": "qr/altair_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
-    }
+    },
+    "testnet": false
+  },
+  "heiko": {
+    "title": "Parallel Heiko",
+    "color": "#42d5de",
+    "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
+    "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
+    "unit": "HKO",
+    "base58prefix": 110,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
+    "decimals": 12,
+    "liveMetaVersion": 198,
+    "metadataQr": {
+      "version": 198,
+      "file": {
+        "path": "qr/heiko_metadata_198.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x87c1c9156ba585327f84a37f53336652ea152955a2ae23ff869652db90e19796"
+        }
+      }
+    },
+    "latestMetadata": "qr/heiko_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/heiko_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "edgeware": {
+    "title": "Edgeware",
+    "color": "#111111",
+    "rpcEndpoint": "wss://edgeware-rpc.dwellir.com",
+    "genesisHash": "0x742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
+    "unit": "EDG",
+    "base58prefix": 7,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Edgeware.svg",
+    "decimals": 18,
+    "liveMetaVersion": 53,
+    "metadataQr": {
+      "version": 53,
+      "file": {
+        "path": "qr/edgeware_metadata_53.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x83e6337ce2d0014940e4b854bcba7e785ae616640317793c1595298bfd1f73bc"
+        }
+      }
+    },
+    "latestMetadata": "qr/edgeware_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/edgeware_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
   },
   "khala": {
-    "name": "khala",
+    "title": "Khala",
     "color": "#03f3f3",
     "rpcEndpoint": "wss://khala-api.phala.network/ws",
     "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
     "unit": "PHA",
     "base58prefix": 30,
-    "logo": "Khala.svg",
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
-    "metadataVersion": 1160,
+    "liveMetaVersion": 1250,
     "metadataQr": {
-      "path": "/qr/khala_metadata_1160.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://khala-api.phala.network/ws",
-        "block": "0xbda8a8eab0dcdab0d2756d025fc93e85adcfa8db6471dd6d874ae7f68af609fc"
+      "version": 1250,
+      "file": {
+        "path": "qr/khala_metadata_1250.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x807e1c50c2595249fd7038395c7b77fac5c15ffb2504441b6ec9b71e0513db6f"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/khala_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/khala_specs.png",
+      "path": "qr/khala_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
-    }
+    },
+    "testnet": false
   },
-  "westmint": {
-    "name": "westmint",
-    "color": "#77bb77",
-    "rpcEndpoint": "wss://westmint-rpc.polkadot.io",
-    "genesisHash": "0x67f9723393ef76214df0118c34bbbd3dbebc8ed46a10973a8c969d48fe7598c9",
-    "unit": "WND",
-    "base58prefix": 42,
-    "logo": "Westmint_Testnet.svg",
-    "decimals": 12,
-    "metadataVersion": 9230,
+  "kilt-spiritnet": {
+    "title": "KILT",
+    "color": "#8c145a",
+    "rpcEndpoint": "wss://spiritnet.kilt.io/",
+    "genesisHash": "0x411f057b9107718c9624d6aa4a3f23c1653898297f3d4d529d9bb6511a39dd21",
+    "unit": "KILT",
+    "base58prefix": 38,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
+    "decimals": 15,
+    "liveMetaVersion": 11000,
     "metadataQr": {
-      "path": "/qr/westmint_metadata_9230.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://westmint-rpc.polkadot.io",
-        "block": "0x995f60be18066b6827f757b9325bf44cb0b28c1ea3e14be03ca301e690994f2f"
+      "version": 11000,
+      "file": {
+        "path": "qr/kilt-spiritnet_metadata_11000.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xcf92c02feed4c92203212a141c0b16ac64c8057827189433055b28cf71f9a924"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/westmint_specs.png",
+      "path": "qr/kilt-spiritnet_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
-    }
+    },
+    "testnet": false
   },
-  "mandala": {
-    "name": "mandala",
-    "color": "#173DC9",
-    "rpcEndpoint": "wss://acala-mandala.api.onfinality.io/public-ws/",
-    "genesisHash": "0x5c562e6300954998233c9a40b6b86f3028977e6d32d0da1af207738d19f98c1b",
+  "calamari": {
+    "title": "Calamari",
+    "color": "#000000",
+    "rpcEndpoint": "wss://calamari.systems",
+    "genesisHash": "0x4ac80c99289841dd946ef92765bf659a307d39189b3ce374a92b5f0415ee17a1",
+    "unit": "KMA",
+    "base58prefix": 78,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
+    "decimals": 12,
+    "liveMetaVersion": 4200,
+    "metadataQr": {
+      "version": 4200,
+      "file": {
+        "path": "qr/calamari_metadata_4200.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x88d97156c1cb8074503fb2d081d20d02f0aefc3bb1d82aadd1e957b325f914e1"
+        }
+      }
+    },
+    "latestMetadata": "qr/calamari_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/calamari_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "quartz": {
+    "title": "QUARTZ",
+    "color": "#FF4D6A",
+    "rpcEndpoint": "wss://quartz.unique.network",
+    "genesisHash": "0xcd4d732201ebe5d6b014edda071c4203e16867305332301dc8d092044b28e554",
+    "unit": "QTZ",
+    "base58prefix": 255,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Quartz.svg",
+    "decimals": 18,
+    "liveMetaVersion": 942057,
+    "metadataQr": {
+      "version": 942057,
+      "file": {
+        "path": "qr/quartz_metadata_942057.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa13fc5ccb3a3280f4a22d54ae0d991c31b5c7682d74af3b2e6ed2674c87b57aa"
+        }
+      }
+    },
+    "latestMetadata": "qr/quartz_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/quartz_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "pioneer-runtime": {
+    "title": "Bit.Country Pioneer",
+    "color": "#000000",
+    "rpcEndpoint": "wss://pioneer.api.onfinality.io/public-ws",
+    "genesisHash": "0xf22b7850cdd5a7657bbfd90ac86441275bbc57ace3d2698a740c7b0ec4de5ec3",
+    "unit": "NEER",
+    "base58prefix": 268,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bit.Country_Pioneer.svg",
+    "decimals": 18,
+    "liveMetaVersion": 19,
+    "metadataQr": {
+      "version": 19,
+      "file": {
+        "path": "qr/pioneer-runtime_metadata_19.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xfdd110c3158341aa53256e4c3f29cbca5138ca1afdcb9b6ea34e18948f1ceb3d"
+        }
+      }
+    },
+    "latestMetadata": "qr/pioneer-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/pioneer-runtime_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "acala": {
+    "title": "Acala",
+    "color": "#645AFF",
+    "rpcEndpoint": "wss://acala-rpc.dwellir.com",
+    "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
     "unit": "UNIT",
-    "base58prefix": 42,
-    "logo": "Acala_Mandala_Testnet.svg",
+    "base58prefix": 10,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
-    "metadataVersion": 2064,
+    "liveMetaVersion": 2180,
     "metadataQr": {
-      "path": "/qr/mandala_metadata_2064.apng",
-      "signedBy": "Novasama Technologies",
-      "source": {
-        "type": "Rpc",
-        "url": "wss://acala-mandala.api.onfinality.io/public-ws/",
-        "block": "0x714f7a6dd2b45e8728d05199c630f02c426d9a5526875f9f7609890d75154256"
+      "version": 2180,
+      "file": {
+        "path": "qr/acala_metadata_2180.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc8fa9f9c1aaeb47431545abaea084ad35361b675174c7c7db8e8fe3531ca0c81"
+        }
       }
     },
-    "nextMetadataVersion": null,
-    "nextMetadataQr": null,
+    "latestMetadata": "qr/acala_metadata_latest.apng",
     "specsQr": {
-      "path": "/qr/mandala_specs.png",
+      "path": "qr/acala_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
-    }
+    },
+    "testnet": false
+  },
+  "astar": {
+    "title": "Astar",
+    "color": "#1b6dc1d9",
+    "rpcEndpoint": "wss://rpc.astar.network",
+    "genesisHash": "0x9eb76c5184c4ab8679d2d5d819fdf90b9c001403e9e17da2e14b6d8aec4029c6",
+    "unit": "ASTR",
+    "base58prefix": 5,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Astar.svg",
+    "decimals": 18,
+    "liveMetaVersion": 61,
+    "metadataQr": {
+      "version": 61,
+      "file": {
+        "path": "qr/astar_metadata_61.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x7278329787678dfec19fbb206fd61988b886b30ee274829f694c0ebd2da336d7"
+        }
+      }
+    },
+    "latestMetadata": "qr/astar_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/astar_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "parallel": {
+    "title": "Parallel",
+    "color": "#ef18ac",
+    "rpcEndpoint": "wss://rpc.parallel.fi",
+    "genesisHash": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
+    "unit": "PARA",
+    "base58prefix": 172,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Parallel.svg",
+    "decimals": 12,
+    "liveMetaVersion": 198,
+    "metadataQr": {
+      "version": 198,
+      "file": {
+        "path": "qr/parallel_metadata_198.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9d0df154dc6509ecc5e06bd0ae74f0d70d7f831c62d06076054afe241ff22adb"
+        }
+      }
+    },
+    "latestMetadata": "qr/parallel_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/parallel_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "clover-mainnet": {
+    "title": "CLV Parachain",
+    "color": "linear-gradient(to right, #52ad75, #7cc773)",
+    "rpcEndpoint": "wss://rpc-para.clover.finance",
+    "genesisHash": "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
+    "unit": "CLV",
+    "base58prefix": 128,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/CLV_Parachain.svg",
+    "decimals": 18,
+    "liveMetaVersion": 25,
+    "metadataQr": {
+      "version": 25,
+      "file": {
+        "path": "qr/clover-mainnet_metadata_25.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x182eac2e062838e2f2b3ddb7f64f9157c5b445f0cb59bfc3c8cc96a36900083c"
+        }
+      }
+    },
+    "latestMetadata": "qr/clover-mainnet_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/clover-mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "statemint": {
+    "title": "Polkadot Asset Hub",
+    "color": "#86e62a",
+    "rpcEndpoint": "wss://statemint-rpc.polkadot.io",
+    "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+    "unit": "DOT",
+    "base58prefix": 0,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Asset_Hub.svg",
+    "decimals": 10,
+    "liveMetaVersion": 9420,
+    "metadataQr": {
+      "version": 9420,
+      "file": {
+        "path": "qr/statemint_metadata_9420.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa6edbf19c840f24d63c245a250bebec7ef85fe7fea7f0d18fb424c40dcab7555"
+        }
+      }
+    },
+    "latestMetadata": "qr/statemint_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/statemint_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "robonomics": {
+    "title": "Robonomics",
+    "color": "#2949d3",
+    "rpcEndpoint": "wss://kusama.rpc.robonomics.network/",
+    "genesisHash": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+    "unit": "XRT",
+    "base58prefix": 32,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Robonomics.svg",
+    "decimals": 9,
+    "liveMetaVersion": 31,
+    "metadataQr": {
+      "version": 31,
+      "file": {
+        "path": "qr/robonomics_metadata_31.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x6f2e63fbf66497aa06e47a05826fb4a21f4533266cef31a43287dc4c701e5d01"
+        }
+      }
+    },
+    "latestMetadata": "qr/robonomics_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/robonomics_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "encointer-parachain": {
+    "title": "Encointer",
+    "color": "#0000cc",
+    "rpcEndpoint": "wss://api.kusama.encointer.org",
+    "genesisHash": "0x7dd99936c1e9e6d1ce7d90eb6f33bea8393b4bf87677d675aa63c9cb3e8c5b5b",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Encointer.svg",
+    "decimals": 12,
+    "liveMetaVersion": 12,
+    "metadataQr": {
+      "version": 12,
+      "file": {
+        "path": "qr/encointer-parachain_metadata_12.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xc05e663c0210251bc1b208342f87736fc596bfe9ade0ecc380f8e3f26c317221"
+        }
+      }
+    },
+    "latestMetadata": "qr/encointer-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/encointer-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kintsugi-parachain": {
+    "title": "Kintsugi",
+    "color": "#1a0a2d",
+    "rpcEndpoint": "wss://api-kusama.interlay.io/parachain",
+    "genesisHash": "0x9af9a64e6e4da8e3073901c3ff0cc4c3aad9563786d89daf6ad820b6e14a0b8b",
+    "unit": "UNIT",
+    "base58prefix": 2092,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kintsugi.svg",
+    "decimals": 0,
+    "liveMetaVersion": 1024004,
+    "metadataQr": null,
+    "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kintsugi-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "picasso": {
+    "title": "Picasso",
+    "color": "#000000",
+    "rpcEndpoint": "wss://picasso-rpc.composable.finance",
+    "genesisHash": "0x6811a339673c9daa897944dcdac99c6e2939cc88245ed21951a0a3c9a2be75bc",
+    "unit": "PICA",
+    "base58prefix": 49,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Picasso.svg",
+    "decimals": 12,
+    "liveMetaVersion": 10030,
+    "metadataQr": {
+      "version": 10030,
+      "file": {
+        "path": "qr/picasso_metadata_10030.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xae3e405f2b374699dddef98b4f96de6f7dbe127fe72f8eed758d8448cfe6515e"
+        }
+      }
+    },
+    "latestMetadata": "qr/picasso_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/picasso_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "zeitgeist": {
+    "title": "Zeitgeist",
+    "color": "linear-gradient(180deg, rgba(32,90,172,1) 0%, rgba(26,72,138,1) 50%, rgba(13,36,69,1) 100%)",
+    "rpcEndpoint": "wss://zeitgeist-rpc.dwellir.com",
+    "genesisHash": "0x1bf2a2ecb4a868de66ea8610f2ce7c8c43706561b6476031315f6640fe38e060",
+    "unit": "ZTG",
+    "base58prefix": 73,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Zeitgeist.svg",
+    "decimals": 10,
+    "liveMetaVersion": 46,
+    "metadataQr": {
+      "version": 46,
+      "file": {
+        "path": "qr/zeitgeist_metadata_46.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xdc9e068ffec2e080716229712f8c36a89421d4039bc0c4485f4e8a49ec6a3a65"
+        }
+      }
+    },
+    "latestMetadata": "qr/zeitgeist_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/zeitgeist_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "litmus-parachain": {
+    "title": "Litmus",
+    "color": "#6822fb",
+    "rpcEndpoint": "wss://rpc.litmus-parachain.litentry.io",
+    "genesisHash": "0xda5831fbc8570e3c6336d0d72b8c08f8738beefec812df21ef2afc2982ede09c",
+    "unit": "LIT",
+    "base58prefix": 131,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litmus.svg",
+    "decimals": 12,
+    "liveMetaVersion": 9151,
+    "metadataQr": {
+      "version": 9151,
+      "file": {
+        "path": "qr/litmus-parachain_metadata_9151.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe14210c78bd067c7d7f6bf0b312aa56e69a355f9deaec79c865c943048627f25"
+        }
+      }
+    },
+    "latestMetadata": "qr/litmus-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/litmus-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "subsocial-parachain": {
+    "title": "Subsocial",
+    "color": "#69058C",
+    "rpcEndpoint": "wss://para.f3joule.space",
+    "genesisHash": "0x4a12be580bb959937a1c7a61d5cf24428ed67fa571974b4007645d1886e7c89f",
+    "unit": "SUB",
+    "base58prefix": 28,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
+    "decimals": 10,
+    "liveMetaVersion": 26,
+    "metadataQr": {
+      "version": 26,
+      "file": {
+        "path": "qr/subsocial-parachain_metadata_26.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x143e641225ebc7846193f2bd21ef9c3ac9a0fe5b5cf03d87d2b3b19e3042ca52"
+        }
+      }
+    },
+    "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/subsocial-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "crust-collator": {
+    "title": "Crust Shadow",
+    "color": "#EEC6EC",
+    "rpcEndpoint": "wss://rpc2-shadow.crust.network/",
+    "genesisHash": "0xd4c0c08ca49dc7c680c3dac71a7c0703e5b222f4b6c03fe4c5219bb8f22c18dc",
+    "unit": "CSM",
+    "base58prefix": 66,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crust_Shadow.svg",
+    "decimals": 12,
+    "liveMetaVersion": 16,
+    "metadataQr": {
+      "version": 16,
+      "file": {
+        "path": "qr/crust-collator_metadata_16.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xe598817905d49c67af02f1ac2706a06c8e7b01c7b25ffa1287835643fc3a6125"
+        }
+      }
+    },
+    "latestMetadata": "qr/crust-collator_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/crust-collator_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "integritee-parachain": {
+    "title": "Integritee Parachain",
+    "color": "#658ea9",
+    "rpcEndpoint": "wss://integritee-kusama.api.onfinality.io/public-ws",
+    "genesisHash": "0xcdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
+    "unit": "TEER",
+    "base58prefix": 13,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Integritee.svg",
+    "decimals": 12,
+    "liveMetaVersion": 35,
+    "metadataQr": null,
+    "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/integritee-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "centrifuge": {
+    "title": "Centrifuge Parachain",
+    "color": "#fcc367",
+    "rpcEndpoint": "wss://centrifuge-parachain.api.onfinality.io/public-ws",
+    "genesisHash": "0xb3db41421702df9a7fcac62b53ffeac85f7853cc4e689e0b93aeb3db18c09d82",
+    "unit": "CFG",
+    "base58prefix": 36,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
+    "decimals": 18,
+    "liveMetaVersion": 1019,
+    "metadataQr": {
+      "version": 1019,
+      "file": {
+        "path": "qr/centrifuge_metadata_1019.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9d974dbda4f064f63bee0925183ed8b1c848983016d910214ca6ab04b8cac074"
+        }
+      }
+    },
+    "latestMetadata": "qr/centrifuge_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/centrifuge_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "efinity": {
+    "title": "Efinity (PAUSED)",
+    "color": "#496ddb",
+    "rpcEndpoint": "wss://rpc.efinity.io",
+    "genesisHash": "0x99ded175d436bee7d751fa3f2f8c7a257ddc063a541f8daa5e6152604f66b2a0",
+    "unit": "EFI",
+    "base58prefix": 1110,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Efinity.svg",
+    "decimals": 18,
+    "liveMetaVersion": 3014,
+    "metadataQr": {
+      "version": 3014,
+      "file": {
+        "path": "qr/efinity_metadata_3014.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd64fd27e39a41118d22b8450e2ee179592ae4a779d959832ddf903a6f81d22cd"
+        }
+      }
+    },
+    "latestMetadata": "qr/efinity_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/efinity_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "hydradx": {
+    "title": "HydraDX",
+    "color": "#f653a2",
+    "rpcEndpoint": "wss://rpc.hydradx.cloud",
+    "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+    "unit": "HDX",
+    "base58prefix": 63,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/HydraDX.svg",
+    "decimals": 12,
+    "liveMetaVersion": 160,
+    "metadataQr": {
+      "version": 160,
+      "file": {
+        "path": "qr/hydradx_metadata_160.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd78410648dc456a3e321a86b5d608ac03db65f1526da314e4d39231e07a877c0"
+        }
+      }
+    },
+    "latestMetadata": "qr/hydradx_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/hydradx_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "interlay-parachain": {
+    "title": "Interlay",
+    "color": "#3E96FF",
+    "rpcEndpoint": "wss://api.interlay.io/parachain",
+    "genesisHash": "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
+    "unit": "UNIT",
+    "base58prefix": 2032,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Interlay.svg",
+    "decimals": 0,
+    "liveMetaVersion": 1024004,
+    "metadataQr": null,
+    "latestMetadata": "qr/interlay-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/interlay-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "nodle-para": {
+    "title": "Nodle Parachain",
+    "color": "#1ab394",
+    "rpcEndpoint": "wss://nodle-parachain.api.onfinality.io/public-ws",
+    "genesisHash": "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
+    "unit": "NODL",
+    "base58prefix": 37,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Nodle.svg",
+    "decimals": 11,
+    "liveMetaVersion": 20,
+    "metadataQr": {
+      "version": 20,
+      "file": {
+        "path": "qr/nodle-para_metadata_20.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa7fba017ea6f9073032aa3212ee1a905a97a0ac6f04dc2ed625cbd68334a165f"
+        }
+      }
+    },
+    "latestMetadata": "qr/nodle-para_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/nodle-para_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "phala": {
+    "title": "Phala",
+    "color": "#c6fa4c",
+    "rpcEndpoint": "wss://phala-rpc.dwellir.com",
+    "genesisHash": "0x1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
+    "unit": "PHA",
+    "base58prefix": 30,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Phala.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1250,
+    "metadataQr": {
+      "version": 1250,
+      "file": {
+        "path": "qr/phala_metadata_1250.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x04414c281437cf9697875f8d970765dd9f4b7f95582d36d7918bc3a0516990e0"
+        }
+      }
+    },
+    "latestMetadata": "qr/phala_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/phala_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "turing": {
+    "title": "Turing",
+    "color": "#A8278C",
+    "rpcEndpoint": "wss://rpc.turing.oak.tech",
+    "genesisHash": "0x0f62b701fb12d02237a33b84818c11f621653d2b1614c777973babf4652b535d",
+    "unit": "TUR",
+    "base58prefix": 51,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Turing.svg",
+    "decimals": 10,
+    "liveMetaVersion": 294,
+    "metadataQr": {
+      "version": 294,
+      "file": {
+        "path": "qr/turing_metadata_294.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x030903d195311facdb111174a54f9bd67d8ae94c999c483ccaf6e27dc6f0a75a"
+        }
+      }
+    },
+    "latestMetadata": "qr/turing_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/turing_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "aleph-node": {
+    "title": "Aleph Zero",
+    "color": "#00CCAB",
+    "rpcEndpoint": "wss://ws.azero.dev",
+    "genesisHash": "0x70255b4d28de0fc4e1a193d7e175ad1ccef431598211c55538f1018651a0344e",
+    "unit": "AZERO",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/AlephZero.svg",
+    "decimals": 12,
+    "liveMetaVersion": 61,
+    "metadataQr": {
+      "version": 61,
+      "file": {
+        "path": "qr/aleph-node_metadata_61.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x736d1a79ed3758d38ef6e3370e5fc88392448d8aba637ceb05cd1d7540f20316"
+        }
+      }
+    },
+    "latestMetadata": "qr/aleph-node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/aleph-node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "composable": {
+    "title": "Composable Finance",
+    "color": "#C90E8A",
+    "rpcEndpoint": "wss://composable.api.onfinality.io/public-ws",
+    "genesisHash": "0xdaab8df776eb52ec604a5df5d388bb62a050a0aaec4556a64265b9d42755552d",
+    "unit": "LAYR",
+    "base58prefix": 50,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Composable.svg",
+    "decimals": 12,
+    "liveMetaVersion": 10030,
+    "metadataQr": {
+      "version": 10030,
+      "file": {
+        "path": "qr/composable_metadata_10030.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x046a7392107430eaa2e9609e74cf83d809292b80d34f4eead4453fb183715b8a"
+        }
+      }
+    },
+    "latestMetadata": "qr/composable_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/composable_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "node": {
+    "title": "Polkadex",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://mainnet.polkadex.trade",
+    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+    "unit": "PDEX",
+    "base58prefix": 88,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadex.svg",
+    "decimals": 12,
+    "liveMetaVersion": 286,
+    "metadataQr": {
+      "version": 286,
+      "file": {
+        "path": "qr/node_metadata_286.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa47c5c21cf6cce11a27989c3893ea0d22d0416480e817b19c99d0cbbc5c00372"
+        }
+      }
+    },
+    "latestMetadata": "qr/node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "origintrail-parachain": {
+    "title": "OriginTrail Parachain",
+    "color": "#FB5DEB",
+    "rpcEndpoint": "wss://parachain-rpc.origin-trail.network",
+    "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
+    "unit": "OTP",
+    "base58prefix": 101,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
+    "decimals": 12,
+    "liveMetaVersion": 111,
+    "metadataQr": {
+      "version": 111,
+      "file": {
+        "path": "qr/origintrail-parachain_metadata_111.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x5c3673236270a62353b91db6766ba79a9b6041cbd55cc63a6770b035848d30c9"
+        }
+      }
+    },
+    "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/origintrail-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "bifrost_polkadot": {
+    "title": "Bifrost Polkadot",
+    "color": "#5a25f0",
+    "rpcEndpoint": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+    "genesisHash": "0x262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+    "unit": "BNC",
+    "base58prefix": 6,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
+    "decimals": 12,
+    "liveMetaVersion": 976,
+    "metadataQr": {
+      "version": 976,
+      "file": {
+        "path": "qr/bifrost_polkadot_metadata_976.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa7194afe94118e1d16a6bd01ccf06bce20c8b26c329945d4549a2cb4269b731e"
+        }
+      }
+    },
+    "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bifrost_polkadot_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "litentry-parachain": {
+    "title": "Litentry",
+    "color": "linear-gradient(45deg, #5cc27c 0%, #6de98f 100%)",
+    "rpcEndpoint": "wss://rpc.litentry-parachain.litentry.io",
+    "genesisHash": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
+    "unit": "LIT",
+    "base58prefix": 31,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litentry.svg",
+    "decimals": 12,
+    "liveMetaVersion": 9155,
+    "metadataQr": {
+      "version": 9155,
+      "file": {
+        "path": "qr/litentry-parachain_metadata_9155.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x281ccf220e54d08b4d21e85088e112e9db0446f46b693f40962da5392151ee26"
+        }
+      }
+    },
+    "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/litentry-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "unique": {
+    "title": "UNIQUE",
+    "color": "#40BCFF",
+    "rpcEndpoint": "wss://eu-ws.unique.network/",
+    "genesisHash": "0x84322d9cddbf35088f1e54e9a85c967a41a56a4f43445768125e61af166c7d31",
+    "unit": "UNQ",
+    "base58prefix": 7391,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Unique.svg",
+    "decimals": 18,
+    "liveMetaVersion": 942057,
+    "metadataQr": {
+      "version": 942057,
+      "file": {
+        "path": "qr/unique_metadata_942057.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb4ed0cf40ddc7946e3b275b1582cdd01840c2034c8d0bed4263ca45caf1b95c4"
+        }
+      }
+    },
+    "latestMetadata": "qr/unique_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/unique_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "dora ksm parachain": {
+    "title": "Dora Factory",
+    "color": "#FF761C",
+    "rpcEndpoint": "wss://kusama.dorafactory.org",
+    "genesisHash": "0x577d331ca43646f547cdaa07ad0aa387a383a93416764480665103081f3eaf14",
+    "unit": "DORA",
+    "base58prefix": 128,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/DoraFactory.svg",
+    "decimals": 12,
+    "liveMetaVersion": 33,
+    "metadataQr": {
+      "version": 33,
+      "file": {
+        "path": "qr/dora ksm parachain_metadata_33.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x77ae66b302451c93457c200122e9e2f8ff215d4469934a5b5b76777769378873"
+        }
+      }
+    },
+    "latestMetadata": "qr/dora ksm parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/dora ksm parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "mangata-parachain": {
+    "title": "Mangata X",
+    "color": "#030408",
+    "rpcEndpoint": "wss://kusama-rpc.mangata.online",
+    "genesisHash": "0xd611f22d291c5b7b69f1e105cca03352984c344c4421977efaa4cbdd1834e2aa",
+    "unit": "MGX",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/MangataX.svg",
+    "decimals": 18,
+    "liveMetaVersion": 3001,
+    "metadataQr": {
+      "version": 3001,
+      "file": {
+        "path": "qr/mangata-parachain_metadata_3001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x26ff88c83102e30fa9d594d9afdc6025dcd5802c207edd26b3fb24e72c9ff68d"
+        }
+      }
+    },
+    "latestMetadata": "qr/mangata-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/mangata-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kabocha-parachain": {
+    "title": "Kabocha",
+    "color": "#f53485",
+    "rpcEndpoint": "wss://kabocha.jelliedowl.com",
+    "genesisHash": "0xfeb426ca713f0f46c96465b8f039890370cf6bfd687c9076ea2843f58a6ae8a7",
+    "unit": "KAB",
+    "base58prefix": 27,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kabocha.svg",
+    "decimals": 12,
+    "liveMetaVersion": 28,
+    "metadataQr": {
+      "version": 28,
+      "file": {
+        "path": "qr/kabocha-parachain_metadata_28.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xde5b03a85765599989dda0afc5120766095770842123df90ae44d6e7f11d2516"
+        }
+      }
+    },
+    "latestMetadata": "qr/kabocha-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kabocha-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "bajun": {
+    "title": "Bajun",
+    "color": "#161212",
+    "rpcEndpoint": "wss://rpc-parachain.bajun.network",
+    "genesisHash": "0x35a06bfec2edf0ff4be89a6428ccd9ff5bd0167d618c5a0d4341f9600a458d14",
+    "unit": "BAJU",
+    "base58prefix": 1337,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bajun.svg",
+    "decimals": 12,
+    "liveMetaVersion": 117,
+    "metadataQr": {
+      "version": 117,
+      "file": {
+        "path": "qr/bajun_metadata_117.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xd0c0567a3485185a9f50c348005817764779aa170e447f909a24baa0255fb203"
+        }
+      }
+    },
+    "latestMetadata": "qr/bajun_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bajun_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "imbue": {
+    "title": "Imbue",
+    "color": "#baff36",
+    "rpcEndpoint": "wss://imbue-kusama.imbue.network",
+    "genesisHash": "0xca93a37c913a25fa8fdb33c7f738afc39379cb71d37874a16d4c091a5aef9f89",
+    "unit": "IMBU",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Imbue.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1038,
+    "metadataQr": null,
+    "latestMetadata": "qr/imbue_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/imbue_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "tinkernet_node": {
+    "title": "Tinkernet",
+    "color": "#161616",
+    "rpcEndpoint": "wss://invarch-tinkernet.api.onfinality.io/public-ws",
+    "genesisHash": "0xd42e9606a995dfe433dc7955dc2a70f495f350f373daa200098ae84437816ad2",
+    "unit": "TNKR",
+    "base58prefix": 117,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
+    "decimals": 12,
+    "liveMetaVersion": 18,
+    "metadataQr": {
+      "version": 18,
+      "file": {
+        "path": "qr/tinkernet_node_metadata_18.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x35a8ba578b44406cbc096608237a82870ff6f2f59ad58c06d0602a8636948cb0"
+        }
+      }
+    },
+    "latestMetadata": "qr/tinkernet_node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/tinkernet_node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "gm_parachain": {
+    "title": "GM",
+    "color": "#f47b36",
+    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
+    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
+    "unit": "UNIT",
+    "base58prefix": 7013,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/GM.svg",
+    "decimals": 0,
+    "liveMetaVersion": 8,
+    "metadataQr": {
+      "version": 8,
+      "file": {
+        "path": "qr/gm_parachain_metadata_8.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x96a9ba43e42f869ba4926a33f43bf223f42ae2739f315900190e3436a433bd12"
+        }
+      }
+    },
+    "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/gm_parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "amplitude": {
+    "title": "Amplitude",
+    "color": "#5defa7",
+    "rpcEndpoint": "wss://rpc-amplitude.pendulumchain.tech",
+    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+    "unit": "AMPE",
+    "base58prefix": 57,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Amplitude.svg",
+    "decimals": 12,
+    "liveMetaVersion": 9,
+    "metadataQr": {
+      "version": 9,
+      "file": {
+        "path": "qr/amplitude_metadata_9.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x5166b3b512e7603ddceb6a37161e00733c43dbf8a7567823cd56eab68ef45d8b"
+        }
+      }
+    },
+    "latestMetadata": "qr/amplitude_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/amplitude_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "mainnet": {
+    "title": "Ternoa",
+    "color": "#d622ff",
+    "rpcEndpoint": "wss://mainnet.ternoa.network",
+    "genesisHash": "0x6859c81ca95ef624c9dfe4dc6e3381c33e5d6509e35e147092bfbc780f777c4e",
+    "unit": "CAPS",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ternoa.svg",
+    "decimals": 18,
+    "liveMetaVersion": 15,
+    "metadataQr": {
+      "version": 15,
+      "file": {
+        "path": "qr/mainnet_metadata_15.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x3ab8b079930cd54925e53fc716b534302c8db5ecf77bbd48cc456a0a62a42e8e"
+        }
+      }
+    },
+    "latestMetadata": "qr/mainnet_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "kylin": {
+    "title": "Kylin",
+    "color": "#ed007e",
+    "rpcEndpoint": "wss://polkadot.kylin-node.co.uk",
+    "genesisHash": "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
+    "unit": "KYL",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kylin.svg",
+    "decimals": 18,
+    "liveMetaVersion": 21,
+    "metadataQr": {
+      "version": 21,
+      "file": {
+        "path": "qr/kylin_metadata_21.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x9884341815266d7f5eada7f5a296b41f18d3fd94eb301ae4866f95bb7248643e"
+        }
+      }
+    },
+    "latestMetadata": "qr/kylin_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/kylin_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "totem-parachain": {
+    "title": "Kapex",
+    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
+    "rpcEndpoint": "wss://k-ui.kapex.network",
+    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
+    "unit": "KPX",
+    "base58prefix": 2007,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Totem.svg",
+    "decimals": 12,
+    "liveMetaVersion": 4,
+    "metadataQr": {
+      "version": 4,
+      "file": {
+        "path": "qr/totem-parachain_metadata_4.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
+        }
+      }
+    },
+    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/totem-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "polymesh_mainnet": {
+    "title": "Polymesh",
+    "color": "#1348e4",
+    "rpcEndpoint": "wss://mainnet-rpc.polymesh.network",
+    "genesisHash": "0x6fbd74e5e1d0a61d52ccfe9d4adaed16dd3a7caa37c6bc4d0c2fa12e8b2f4063",
+    "unit": "POLYX",
+    "base58prefix": 12,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polymesh.svg",
+    "decimals": 6,
+    "liveMetaVersion": 5004001,
+    "metadataQr": {
+      "version": 5004001,
+      "file": {
+        "path": "qr/polymesh_mainnet_metadata_5004001.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x63607b1bce1b5f1e28788a028922bdb7f852ba582bd736e46bf8c2470afa7e93"
+        }
+      }
+    },
+    "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polymesh_mainnet_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "ipci": {
+    "title": "DAO IPCI",
+    "color": "#800742",
+    "rpcEndpoint": "wss://kusama.rpc.ipci.io",
+    "genesisHash": "0x6f0f071506de39058fe9a95bbca983ac0e9c5da3443909574e95d52eb078d348",
+    "unit": "MITO",
+    "base58prefix": 32,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/DAOIPCI.svg",
+    "decimals": 12,
+    "liveMetaVersion": 5,
+    "metadataQr": {
+      "version": 5,
+      "file": {
+        "path": "qr/ipci_metadata_5.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa05f6c6f802fccd203e4cb3e19911a9c19f6a1bb126492d4283143e587021a0d"
+        }
+      }
+    },
+    "latestMetadata": "qr/ipci_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ipci_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "appchain": {
+    "title": "Myriad",
+    "color": "#7342CC",
+    "rpcEndpoint": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0",
+    "genesisHash": "0x74ed91fbc18497f011290f9119a2217908649170337b6414a2d44923ade07063",
+    "unit": "MYRIA",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Myriad.svg",
+    "decimals": 18,
+    "liveMetaVersion": 2036,
+    "metadataQr": {
+      "version": 2036,
+      "file": {
+        "path": "qr/appchain_metadata_2036.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xa50e459e562e79c7c3af278fa3f5d0b01f55620047af426fa066d48787a62a6d"
+        }
+      }
+    },
+    "latestMetadata": "qr/appchain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/appchain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "xxnetwork": {
+    "title": "XX network",
+    "color": "#0F364A",
+    "rpcEndpoint": "wss://rpc-hetzner.xx.network",
+    "genesisHash": "0x50dd5d206917bf10502c68fb4d18a59fc8aa31586f4e8856b493e43544aa82aa",
+    "unit": "xx",
+    "base58prefix": 55,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/XX_network.svg",
+    "decimals": 9,
+    "liveMetaVersion": 205,
+    "metadataQr": {
+      "version": 205,
+      "file": {
+        "path": "qr/xxnetwork_metadata_205.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xef3b4833aae30b48ece9906402df0698efc3ac7e0eda309008f494aa9b001df1"
+        }
+      }
+    },
+    "latestMetadata": "qr/xxnetwork_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/xxnetwork_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "pendulum": {
+    "title": "Pendulum",
+    "color": "#49E2FD",
+    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
+    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+    "unit": "PEN",
+    "base58prefix": 56,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Pendulum.svg",
+    "decimals": 12,
+    "liveMetaVersion": 8,
+    "metadataQr": {
+      "version": 8,
+      "file": {
+        "path": "qr/pendulum_metadata_8.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xef13d6ff7b353744b81c9ef28b45b9798d9cca2c6155e8dc91de09a501810080"
+        }
+      }
+    },
+    "latestMetadata": "qr/pendulum_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/pendulum_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "polkadot-crust-parachain": {
+    "title": "Crust",
+    "color": "#000000",
+    "rpcEndpoint": "wss://crust-parachain.crustapps.net",
+    "genesisHash": "0x4319cc49ee79495b57a1fec4d2bd43f59052dcc690276de566c2691d6df4f7b8",
+    "unit": "CRU",
+    "base58prefix": 88,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crust.svg",
+    "decimals": 12,
+    "liveMetaVersion": 4,
+    "metadataQr": {
+      "version": 4,
+      "file": {
+        "path": "qr/polkadot-crust-parachain_metadata_4.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x5166cc66978a378827f4d7251c3f404e24d85460b4e49a717995c202169ac814"
+        }
+      }
+    },
+    "latestMetadata": "qr/polkadot-crust-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/polkadot-crust-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "avn-parachain": {
+    "title": "Aventus",
+    "color": "#000000",
+    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
+    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+    "unit": "AVT",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Aventus.svg",
+    "decimals": 18,
+    "liveMetaVersion": 31,
+    "metadataQr": {
+      "version": 31,
+      "file": {
+        "path": "qr/avn-parachain_metadata_31.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb811677cc149788c8cff6f82dccbe921d20d52012bfcf558878aa85dce38dbed"
+        }
+      }
+    },
+    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/avn-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "node-subtensor": {
+    "title": "Bittensor",
+    "color": "#000000",
+    "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
+    "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
+    "unit": "TAO",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bittensor.svg",
+    "decimals": 9,
+    "liveMetaVersion": 127,
+    "metadataQr": {
+      "version": 127,
+      "file": {
+        "path": "qr/node-subtensor_metadata_127.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xbd6dd416089846ff388b485fd22d9e845dc5945c40c77bb491a6d66173f4c64c"
+        }
+      }
+    },
+    "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/node-subtensor_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "equilibrium-parachain": {
+    "title": "Equilibrium",
+    "color": "#000000",
+    "rpcEndpoint": "wss://node.pol.equilibrium.io",
+    "genesisHash": "0x89d3ec46d2fb43ef5a9713833373d5ea666b092fa8fd68fbc34596036571b907",
+    "unit": "EQ",
+    "base58prefix": 68,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
+    "decimals": 9,
+    "liveMetaVersion": 28,
+    "metadataQr": {
+      "version": 28,
+      "file": {
+        "path": "qr/equilibrium-parachain_metadata_28.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x4e0cf4e1c91238dc5393f946a393a2e63e3fc85e9d715d8c8e123b73430c6f1e"
+        }
+      }
+    },
+    "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/equilibrium-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "ajuna": {
+    "title": "Ajuna",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
+    "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
+    "unit": "AJUN",
+    "base58prefix": 1328,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Ajuna.svg",
+    "decimals": 12,
+    "liveMetaVersion": 119,
+    "metadataQr": {
+      "version": 119,
+      "file": {
+        "path": "qr/ajuna_metadata_119.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x87b02c7159158f0728b0d425082f87077665f2b4480cdb67d39c17f8a909109c"
+        }
+      }
+    },
+    "latestMetadata": "qr/ajuna_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ajuna_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "poscan-runtime": {
+    "title": "3DPass",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc2.3dpass.org",
+    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
+    "unit": "P3D",
+    "base58prefix": 71,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/3DPass.svg",
+    "decimals": 12,
+    "liveMetaVersion": 112,
+    "metadataQr": {
+      "version": 112,
+      "file": {
+        "path": "qr/poscan-runtime_metadata_112.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x66735ad9a714fcbc9fd11febbadc63f5fd313692dd95548c3af5c97f47ca5d9d"
+        }
+      }
+    },
+    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/poscan-runtime_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "darwinia2": {
+    "title": "Darwinia",
+    "color": "#FF0083",
+    "rpcEndpoint": "wss://parachain-rpc.darwinia.network",
+    "genesisHash": "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
+    "unit": "RING",
+    "base58prefix": 18,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Darwinia.svg",
+    "decimals": 18,
+    "liveMetaVersion": 6340,
+    "metadataQr": {
+      "version": 6340,
+      "file": {
+        "path": "qr/darwinia2_metadata_6340.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x89502f45c219122e625fb730ce3299e4750957d9335b584700d9d239f214df7c"
+        }
+      }
+    },
+    "latestMetadata": "qr/darwinia2_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/darwinia2_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "crab2": {
+    "title": "Crab",
+    "color": "#512DBC",
+    "rpcEndpoint": "wss://crab-rpc.darwinia.network/",
+    "genesisHash": "0x86e49c195aeae7c5c4a86ced251f1a28c67b3c35d8289c387ede1776cdd88b24",
+    "unit": "CRAB",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Crab.svg",
+    "decimals": 18,
+    "liveMetaVersion": 6340,
+    "metadataQr": {
+      "version": 6340,
+      "file": {
+        "path": "qr/crab2_metadata_6340.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xbd5bfb857539800d40f6e2e17be733afbe8505a7d5c4e53c7fcdab6ea461c418"
+        }
+      }
+    },
+    "latestMetadata": "qr/crab2_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/crab2_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "frequency": {
+    "title": "Frequency",
+    "color": "#29fd47",
+    "rpcEndpoint": "wss://0.rpc.frequency.xyz",
+    "genesisHash": "0x4a587bf17a404e3572747add7aab7bbe56e805a5479c6c436f07f36fcc8d3ae1",
+    "unit": "FRQCY",
+    "base58prefix": 90,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg",
+    "decimals": 8,
+    "liveMetaVersion": 30,
+    "metadataQr": {
+      "version": 30,
+      "file": {
+        "path": "qr/frequency_metadata_30.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xda27a07d1eec39638007c869e3b05363fc1b014b2a0cc99dc1dcc506f0294d3c"
+        }
+      }
+    },
+    "latestMetadata": "qr/frequency_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/frequency_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "vara": {
+    "title": "Vara",
+    "color": "#00a87a",
+    "rpcEndpoint": "wss://rpc.vara-network.io",
+    "genesisHash": "0xfe1b4c55fd4d668101126434206571a7838a8b6b93a6d1b95d607e78e6c53763",
+    "unit": "VARA",
+    "base58prefix": 137,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Vara.svg",
+    "decimals": 12,
+    "liveMetaVersion": 140,
+    "metadataQr": {
+      "version": 140,
+      "file": {
+        "path": "qr/vara_metadata_140.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x6fb7df4fb282e4420df04373012b617fcf2c7d2137dd4c5cc46f783b35dc05c2"
+        }
+      }
+    },
+    "latestMetadata": "qr/vara_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/vara_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "giant-runtime": {
+    "title": "GIANT",
+    "color": "#45B549",
+    "rpcEndpoint": "wss://rpc-anchor-1-giant-mainnet-ue1.giantprotocol.org:443",
+    "genesisHash": "0x49f4849244114177544d73d2412289f6d73a892b9eb1ca97cef81c9c0c9ec0ff",
+    "unit": "GIANT",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Giant.svg",
+    "decimals": 12,
+    "liveMetaVersion": 120,
+    "metadataQr": {
+      "version": 120,
+      "file": {
+        "path": "qr/giant-runtime_metadata_120.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8b87d1da06736a2983e92621142ef9085438ebf0a1e169f4ec6552f9ff77561d"
+        }
+      }
+    },
+    "latestMetadata": "qr/giant-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/giant-runtime_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "bridge-hub-polkadot": {
+    "title": "Polkadot Bridge Hub",
+    "color": "#2B73C5",
+    "rpcEndpoint": "wss://polkadot-bridge-hub-rpc.polkadot.io",
+    "genesisHash": "0xdcf691b5a3fbe24adc99ddc959c0561b973e329b1aef4c4b22e7bb2ddecb4464",
+    "unit": "DOT",
+    "base58prefix": 0,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
+    "decimals": 10,
+    "liveMetaVersion": 9420,
+    "metadataQr": {
+      "version": 9420,
+      "file": {
+        "path": "qr/bridge-hub-polkadot_metadata_9420.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xb322f9bfdd43266335a4905e2055a96df07c7988ade8d1eac7bc902b66db80f9"
+        }
+      }
+    },
+    "latestMetadata": "qr/bridge-hub-polkadot_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bridge-hub-polkadot_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "bridge-hub-kusama": {
+    "title": "Kusama Bridge Hub",
+    "color": "#B34FF6",
+    "rpcEndpoint": "wss://kusama-bridge-hub-rpc.polkadot.io",
+    "genesisHash": "0x00dcb981df86429de8bbacf9803401f09485366c44efbf53af9ecfab03adc7e5",
+    "unit": "KSM",
+    "base58prefix": 2,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg",
+    "decimals": 12,
+    "liveMetaVersion": 9430,
+    "metadataQr": {
+      "version": 9430,
+      "file": {
+        "path": "qr/bridge-hub-kusama_metadata_9430.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x2c0ee73c51804eccf5e1c8dadbdfa0dd93c2c131991b8c1a5798e643eaa81561"
+        }
+      }
+    },
+    "latestMetadata": "qr/bridge-hub-kusama_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/bridge-hub-kusama_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "collectives": {
+    "title": "Polkadot Collectives",
+    "color": "#e6777a",
+    "rpcEndpoint": "wss://polkadot-collectives-rpc.polkadot.io",
+    "genesisHash": "0x46ee89aa2eedd13e988962630ec9fb7565964cf5023bb351f2b6b25c1b68b0b2",
+    "unit": "DOT",
+    "base58prefix": 0,
+    "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadot_Collectives.svg",
+    "decimals": 10,
+    "liveMetaVersion": 9420,
+    "metadataQr": {
+      "version": 9420,
+      "file": {
+        "path": "qr/collectives_metadata_9420.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x06605e1713f876c6be731b0242320b8d218f97846f3163cca4b56e6bfb01b8b7"
+        }
+      }
+    },
+    "latestMetadata": "qr/collectives_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/collectives_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
   }
 }

@@ -1,17 +1,14 @@
 {
   "files": {
-    "main.css": "/metadata-portal/static/css/main.096fc914.css",
-    "main.js": "/metadata-portal/static/js/main.d4cc5726.js",
-    "static/media/Inter-Bold.woff": "/metadata-portal/static/media/Inter-Bold.00dc41b74c73bd548602.woff",
-    "static/media/Web3-Regular.woff": "/metadata-portal/static/media/Web3-Regular.5471d3ea491575c4087a.woff",
-    "static/media/Web3-Regular.woff2": "/metadata-portal/static/media/Web3-Regular.a0e473333c74d873ba89.woff2",
-    "static/media/copy.svg": "/metadata-portal/static/media/copy.a4b399869ac1000630c8a19bf8c64ba0.svg",
-    "index.html": "/metadata-portal/index.html",
-    "main.096fc914.css.map": "/metadata-portal/static/css/main.096fc914.css.map",
-    "main.d4cc5726.js.map": "/metadata-portal/static/js/main.d4cc5726.js.map"
+    "main.css": "/static/css/main.ffc112bd.css",
+    "main.js": "/static/js/main.15bfc2d8.js",
+    "index.html": "/index.html",
+    "static/media/vault.svg": "/static/media/vault.1aa02aa17789e8cf6d405b6deddda21c.svg",
+    "main.ffc112bd.css.map": "/static/css/main.ffc112bd.css.map",
+    "main.15bfc2d8.js.map": "/static/js/main.15bfc2d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.096fc914.css",
-    "static/js/main.d4cc5726.js"
+    "static/css/main.ffc112bd.css",
+    "static/js/main.15bfc2d8.js"
   ]
 }
