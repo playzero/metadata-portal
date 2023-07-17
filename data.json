@@ -1159,18 +1159,8 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 286,
-    "metadataQr": {
-      "version": 286,
-      "file": {
-        "path": "qr/node_metadata_286.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xa47c5c21cf6cce11a27989c3893ea0d22d0416480e817b19c99d0cbbc5c00372"
-        }
-      }
-    },
+    "liveMetaVersion": 287,
+    "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/node_specs.png",
