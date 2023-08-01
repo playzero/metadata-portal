@@ -1098,7 +1098,7 @@
     "base58prefix": 101,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
     "decimals": 12,
-    "liveMetaVersion": 112,
+    "liveMetaVersion": 120,
     "metadataQr": null,
     "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
     "specsQr": {
