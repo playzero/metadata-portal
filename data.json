@@ -155,18 +155,8 @@
     "base58prefix": 1284,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
     "decimals": 18,
-    "liveMetaVersion": 2302,
-    "metadataQr": {
-      "version": 2302,
-      "file": {
-        "path": "qr/moonbeam_metadata_2302.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xea094fa2a47628f1f4569d9dc91178059a4f7da41265ece56d12b4b68db662ed"
-        }
-      }
-    },
+    "liveMetaVersion": 2403,
+    "metadataQr": null,
     "latestMetadata": "qr/moonbeam_metadata_latest.apng",
     "specsQr": {
       "path": "qr/moonbeam_specs.png",
