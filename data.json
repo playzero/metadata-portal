@@ -1820,18 +1820,8 @@
     "base58prefix": 90,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Frequency.svg",
     "decimals": 8,
-    "liveMetaVersion": 30,
-    "metadataQr": {
-      "version": 30,
-      "file": {
-        "path": "qr/frequency_metadata_30.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xda27a07d1eec39638007c869e3b05363fc1b014b2a0cc99dc1dcc506f0294d3c"
-        }
-      }
-    },
+    "liveMetaVersion": 44,
+    "metadataQr": null,
     "latestMetadata": "qr/frequency_metadata_latest.apng",
     "specsQr": {
       "path": "qr/frequency_specs.png",
