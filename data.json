@@ -375,7 +375,7 @@
     "base58prefix": 78,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Calamari.svg",
     "decimals": 12,
-    "liveMetaVersion": 4300,
+    "liveMetaVersion": 4310,
     "metadataQr": null,
     "latestMetadata": "qr/calamari_metadata_latest.apng",
     "specsQr": {
