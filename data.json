@@ -779,7 +779,7 @@
     "base58prefix": 13,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Integritee.svg",
     "decimals": 12,
-    "liveMetaVersion": 35,
+    "liveMetaVersion": 37,
     "metadataQr": null,
     "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
     "specsQr": {
@@ -1066,18 +1066,8 @@
     "base58prefix": 31,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Litentry.svg",
     "decimals": 12,
-    "liveMetaVersion": 9155,
-    "metadataQr": {
-      "version": 9155,
-      "file": {
-        "path": "qr/litentry-parachain_metadata_9155.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x281ccf220e54d08b4d21e85088e112e9db0446f46b693f40962da5392151ee26"
-        }
-      }
-    },
+    "liveMetaVersion": 9168,
+    "metadataQr": null,
     "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/litentry-parachain_specs.png",
