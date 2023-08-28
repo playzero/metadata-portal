@@ -212,7 +212,7 @@
     "base58prefix": 6,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
     "decimals": 0,
-    "liveMetaVersion": 978,
+    "liveMetaVersion": 980,
     "metadataQr": null,
     "latestMetadata": "qr/bifrost_metadata_latest.apng",
     "specsQr": {
