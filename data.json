@@ -471,7 +471,7 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Astar.svg",
     "decimals": 18,
-    "liveMetaVersion": 64,
+    "liveMetaVersion": 66,
     "metadataQr": null,
     "latestMetadata": "qr/astar_metadata_latest.apng",
     "specsQr": {
