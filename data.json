@@ -615,7 +615,7 @@
     "base58prefix": 2092,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Kintsugi.svg",
     "decimals": 0,
-    "liveMetaVersion": 1025001,
+    "liveMetaVersion": 1025002,
     "metadataQr": null,
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
@@ -959,7 +959,7 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 308,
+    "liveMetaVersion": 310,
     "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
