@@ -202,7 +202,7 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "liveMetaVersion": 108,
+    "liveMetaVersion": 109,
     "metadataQr": null,
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
