@@ -971,6 +971,25 @@
     },
     "testnet": false
   },
+  "node": {
+    "title": "Polkadex",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://mainnet.polkadex.trade",
+    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+    "unit": "PDEX",
+    "base58prefix": 88,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
+    "decimals": 12,
+    "liveMetaVersion": 311,
+    "metadataQr": null,
+    "latestMetadata": "qr/node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/node_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "origintrail-parachain": {
     "title": "OriginTrail Parachain",
     "color": "#FB5DEB",
@@ -1494,25 +1513,6 @@
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/poscan-runtime_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "darwinia2": {
-    "title": "Darwinia",
-    "color": "#FF0083",
-    "rpcEndpoint": "wss://parachain-rpc.darwinia.network",
-    "genesisHash": "0xf0b8924b12e8108550d28870bc03f7b45a947e1b2b9abf81bfb0b89ecb60570e",
-    "unit": "RING",
-    "base58prefix": 18,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
-    "decimals": 18,
-    "liveMetaVersion": 6404,
-    "metadataQr": null,
-    "latestMetadata": "qr/darwinia2_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/darwinia2_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
