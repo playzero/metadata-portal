@@ -392,7 +392,7 @@
     "base58prefix": 255,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Quartz.svg",
     "decimals": 18,
-    "liveMetaVersion": 10010063,
+    "liveMetaVersion": 10010064,
     "metadataQr": null,
     "latestMetadata": "qr/quartz_metadata_latest.apng",
     "specsQr": {
@@ -1179,35 +1179,6 @@
     },
     "testnet": false
   },
-  "kylin": {
-    "title": "Kylin",
-    "color": "#ed007e",
-    "rpcEndpoint": "wss://polkadot.kylin-node.co.uk",
-    "genesisHash": "0xf2584690455deda322214e97edfffaf4c1233b6e4625e39478496b3e2f5a44c5",
-    "unit": "KYL",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kylin.svg",
-    "decimals": 18,
-    "liveMetaVersion": 21,
-    "metadataQr": {
-      "version": 21,
-      "file": {
-        "path": "qr/kylin_metadata_21.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9884341815266d7f5eada7f5a296b41f18d3fd94eb301ae4866f95bb7248643e"
-        }
-      }
-    },
-    "latestMetadata": "qr/kylin_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/kylin_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "totem-parachain": {
     "title": "Kapex",
     "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
@@ -1396,25 +1367,6 @@
     "latestMetadata": "qr/polkadot-crust-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-crust-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "node-subtensor": {
-    "title": "Bittensor",
-    "color": "#000000",
-    "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
-    "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
-    "unit": "TAO",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
-    "decimals": 9,
-    "liveMetaVersion": 135,
-    "metadataQr": null,
-    "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/node-subtensor_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
