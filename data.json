@@ -344,18 +344,8 @@
     "base58prefix": 38,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
     "decimals": 15,
-    "liveMetaVersion": 11110,
-    "metadataQr": {
-      "version": 11110,
-      "file": {
-        "path": "qr/kilt-spiritnet_metadata_11110.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x42b1fa306ce4f11915cfb2f99d51f6afeccfb0eec707f7e789a804e07b46b398"
-        }
-      }
-    },
+    "liveMetaVersion": 11000,
+    "metadataQr": null,
     "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kilt-spiritnet_specs.png",
@@ -1332,7 +1322,7 @@
     "base58prefix": 68,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Equilibrium.svg",
     "decimals": 9,
-    "liveMetaVersion": 36,
+    "liveMetaVersion": 37,
     "metadataQr": null,
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
