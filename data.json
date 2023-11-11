@@ -325,7 +325,7 @@
     "base58prefix": 30,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
-    "liveMetaVersion": 1254,
+    "liveMetaVersion": 1255,
     "metadataQr": null,
     "latestMetadata": "qr/khala_metadata_latest.apng",
     "specsQr": {
@@ -833,7 +833,7 @@
     "base58prefix": 30,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Phala.svg",
     "decimals": 12,
-    "liveMetaVersion": 1254,
+    "liveMetaVersion": 1255,
     "metadataQr": null,
     "latestMetadata": "qr/phala_metadata_latest.apng",
     "specsQr": {
