@@ -180,7 +180,7 @@
     "base58prefix": 6,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Kusama.svg",
     "decimals": 0,
-    "liveMetaVersion": 984,
+    "liveMetaVersion": 986,
     "metadataQr": null,
     "latestMetadata": "qr/bifrost_metadata_latest.apng",
     "specsQr": {
