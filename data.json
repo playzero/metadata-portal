@@ -1426,7 +1426,7 @@
     "base58prefix": 18,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Darwinia.svg",
     "decimals": 18,
-    "liveMetaVersion": 6404,
+    "liveMetaVersion": 6501,
     "metadataQr": null,
     "latestMetadata": "qr/darwinia2_metadata_latest.apng",
     "specsQr": {
