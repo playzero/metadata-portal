@@ -305,7 +305,7 @@
     "base58prefix": 30,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Khala.svg",
     "decimals": 12,
-    "liveMetaVersion": 1255,
+    "liveMetaVersion": 1256,
     "metadataQr": null,
     "latestMetadata": "qr/khala_metadata_latest.apng",
     "specsQr": {
@@ -793,7 +793,7 @@
     "base58prefix": 30,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Phala.svg",
     "decimals": 12,
-    "liveMetaVersion": 1255,
+    "liveMetaVersion": 1256,
     "metadataQr": null,
     "latestMetadata": "qr/phala_metadata_latest.apng",
     "specsQr": {
@@ -1374,25 +1374,6 @@
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ajuna_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "poscan-runtime": {
-    "title": "3DPass",
-    "color": "#000000",
-    "rpcEndpoint": "wss://rpc2.3dpass.org",
-    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
-    "unit": "P3D",
-    "base58prefix": 71,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
-    "decimals": 12,
-    "liveMetaVersion": 113,
-    "metadataQr": null,
-    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/poscan-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
