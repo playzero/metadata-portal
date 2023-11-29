@@ -937,7 +937,7 @@
     "base58prefix": 6,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bifrost_Polkadot.svg",
     "decimals": 12,
-    "liveMetaVersion": 986,
+    "liveMetaVersion": 987,
     "metadataQr": null,
     "latestMetadata": "qr/bifrost_polkadot_metadata_latest.apng",
     "specsQr": {
