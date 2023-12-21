@@ -925,25 +925,6 @@
     },
     "testnet": false
   },
-  "amplitude": {
-    "title": "Amplitude",
-    "color": "#5defa7",
-    "rpcEndpoint": "wss://rpc-amplitude.pendulumchain.tech",
-    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
-    "unit": "AMPE",
-    "base58prefix": 57,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
-    "decimals": 12,
-    "liveMetaVersion": 12,
-    "metadataQr": null,
-    "latestMetadata": "qr/amplitude_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/amplitude_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "mainnet": {
     "title": "Ternoa",
     "color": "#d622ff",
@@ -958,35 +939,6 @@
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/mainnet_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "totem-parachain": {
-    "title": "Kapex",
-    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
-    "rpcEndpoint": "wss://kapex-rpc.dwellir.com",
-    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
-    "unit": "KPX",
-    "base58prefix": 2007,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg",
-    "decimals": 12,
-    "liveMetaVersion": 4,
-    "metadataQr": {
-      "version": 4,
-      "file": {
-        "path": "qr/totem-parachain_metadata_4.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
-        }
-      }
-    },
-    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/totem-parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1193,6 +1145,25 @@
     },
     "testnet": false
   },
+  "vara": {
+    "title": "Vara",
+    "color": "#00a87a",
+    "rpcEndpoint": "wss://rpc.vara-network.io",
+    "genesisHash": "0xfe1b4c55fd4d668101126434206571a7838a8b6b93a6d1b95d607e78e6c53763",
+    "unit": "VARA",
+    "base58prefix": 137,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Vara.svg",
+    "decimals": 12,
+    "liveMetaVersion": 1020,
+    "metadataQr": null,
+    "latestMetadata": "qr/vara_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/vara_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "giant-runtime": {
     "title": "GIANT",
     "color": "#45B549",
@@ -1274,6 +1245,35 @@
     "latestMetadata": "qr/collectives_metadata_latest.apng",
     "specsQr": {
       "path": "qr/collectives_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "peaq-node-krest": {
+    "title": "krest",
+    "color": "#000000",
+    "rpcEndpoint": "wss://wss-krest.peaq.network",
+    "genesisHash": "0xb3dd5ad6a82872b30aabaede8f41dfd4ff6c32ff82f8757d034a45be63cf104c",
+    "unit": "KREST",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/krest.svg",
+    "decimals": 18,
+    "liveMetaVersion": 4,
+    "metadataQr": {
+      "version": 4,
+      "file": {
+        "path": "qr/peaq-node-krest_metadata_4.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x1c380febe38629bc3824a8e3884e9cab5d7834b5451c6029753cff354f65cc45"
+        }
+      }
+    },
+    "latestMetadata": "qr/peaq-node-krest_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/peaq-node-krest_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
