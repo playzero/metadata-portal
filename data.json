@@ -840,35 +840,6 @@
     },
     "testnet": false
   },
-  "origintrail-parachain": {
-    "title": "OriginTrail Parachain",
-    "color": "#FB5DEB",
-    "rpcEndpoint": "wss://parachain-rpc.origin-trail.network",
-    "genesisHash": "0xe7e0962324a3b86c83404dbea483f25fb5dab4c224791c81b756cfc948006174",
-    "unit": "OTP",
-    "base58prefix": 101,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/OriginTrail.svg",
-    "decimals": 12,
-    "liveMetaVersion": 121,
-    "metadataQr": {
-      "version": 121,
-      "file": {
-        "path": "qr/origintrail-parachain_metadata_121.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x502a0300d0d7d33eea2531e1b0948d8a7909ed994f223abea17bb94b081010ad"
-        }
-      }
-    },
-    "latestMetadata": "qr/origintrail-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/origintrail-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "bifrost_polkadot": {
     "title": "Bifrost Polkadot",
     "color": "#5a25f0",
@@ -1050,6 +1021,35 @@
     },
     "testnet": false
   },
+  "totem-parachain": {
+    "title": "Kapex",
+    "color": "linear-gradient(158deg, rgba(226,157,0,1) 0%, rgba(234,55,203,1) 100%)",
+    "rpcEndpoint": "wss://kapex-rpc.dwellir.com",
+    "genesisHash": "0x7838c3c774e887c0a53bcba9e64f702361a1a852d5550b86b58cd73827fa1e1e",
+    "unit": "KPX",
+    "base58prefix": 2007,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Totem.svg",
+    "decimals": 12,
+    "liveMetaVersion": 4,
+    "metadataQr": {
+      "version": 4,
+      "file": {
+        "path": "qr/totem-parachain_metadata_4.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x37ab11a091b460704ba05c84acfd85c18ce41abb41fcf3c4cad984aa36beb063"
+        }
+      }
+    },
+    "latestMetadata": "qr/totem-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/totem-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "polymesh_mainnet": {
     "title": "Polymesh",
     "color": "#1348e4",
@@ -1122,25 +1122,6 @@
     "latestMetadata": "qr/xxnetwork_metadata_latest.apng",
     "specsQr": {
       "path": "qr/xxnetwork_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
-  "pendulum": {
-    "title": "Pendulum",
-    "color": "#49E2FD",
-    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
-    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
-    "unit": "PEN",
-    "base58prefix": 56,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
-    "decimals": 12,
-    "liveMetaVersion": 10,
-    "metadataQr": null,
-    "latestMetadata": "qr/pendulum_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/pendulum_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
@@ -1237,6 +1218,25 @@
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ajuna_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "poscan-runtime": {
+    "title": "3DPass",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc2.3dpass.org",
+    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
+    "unit": "P3D",
+    "base58prefix": 71,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
+    "decimals": 12,
+    "liveMetaVersion": 115,
+    "metadataQr": null,
+    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/poscan-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
