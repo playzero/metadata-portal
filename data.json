@@ -897,7 +897,7 @@
     "base58prefix": 7391,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Unique.svg",
     "decimals": 18,
-    "liveMetaVersion": 10010064,
+    "liveMetaVersion": 10030070,
     "metadataQr": null,
     "latestMetadata": "qr/unique_metadata_latest.apng",
     "specsQr": {
