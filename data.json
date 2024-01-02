@@ -687,7 +687,7 @@
     "base58prefix": 36,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Centrifuge.svg",
     "decimals": 18,
-    "liveMetaVersion": 1023,
+    "liveMetaVersion": 1024,
     "metadataQr": null,
     "latestMetadata": "qr/centrifuge_metadata_latest.apng",
     "specsQr": {
