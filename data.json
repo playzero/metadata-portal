@@ -973,18 +973,8 @@
     "base58prefix": 7013,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg",
     "decimals": 0,
-    "liveMetaVersion": 8,
-    "metadataQr": {
-      "version": 8,
-      "file": {
-        "path": "qr/gm_parachain_metadata_8.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x96a9ba43e42f869ba4926a33f43bf223f42ae2739f315900190e3436a433bd12"
-        }
-      }
-    },
+    "liveMetaVersion": 9,
+    "metadataQr": null,
     "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/gm_parachain_specs.png",
@@ -1185,25 +1175,6 @@
     },
     "testnet": false
   },
-  "avn-parachain": {
-    "title": "Aventus",
-    "color": "#000000",
-    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
-    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
-    "unit": "AVT",
-    "base58prefix": 42,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
-    "decimals": 18,
-    "liveMetaVersion": 57,
-    "metadataQr": null,
-    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/avn-parachain_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "node-subtensor": {
     "title": "Bittensor",
     "color": "#000000",
@@ -1237,6 +1208,35 @@
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "ajuna": {
+    "title": "Ajuna",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
+    "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
+    "unit": "AJUN",
+    "base58prefix": 1328,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
+    "decimals": 12,
+    "liveMetaVersion": 119,
+    "metadataQr": {
+      "version": 119,
+      "file": {
+        "path": "qr/ajuna_metadata_119.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x87b02c7159158f0728b0d425082f87077665f2b4480cdb67d39c17f8a909109c"
+        }
+      }
+    },
+    "latestMetadata": "qr/ajuna_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ajuna_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
