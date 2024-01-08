@@ -963,7 +963,7 @@
     "base58prefix": 57,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
-    "liveMetaVersion": 12,
+    "liveMetaVersion": 13,
     "metadataQr": null,
     "latestMetadata": "qr/amplitude_metadata_latest.apng",
     "specsQr": {
@@ -1355,18 +1355,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/krest.svg",
     "decimals": 18,
-    "liveMetaVersion": 4,
-    "metadataQr": {
-      "version": 4,
-      "file": {
-        "path": "qr/peaq-node-krest_metadata_4.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1c380febe38629bc3824a8e3884e9cab5d7834b5451c6029753cff354f65cc45"
-        }
-      }
-    },
+    "liveMetaVersion": 5,
+    "metadataQr": null,
     "latestMetadata": "qr/peaq-node-krest_metadata_latest.apng",
     "specsQr": {
       "path": "qr/peaq-node-krest_specs.png",
