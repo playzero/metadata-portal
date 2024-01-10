@@ -543,7 +543,7 @@
     "base58prefix": 28,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
-    "liveMetaVersion": 35,
+    "liveMetaVersion": 36,
     "metadataQr": null,
     "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
     "specsQr": {
@@ -1001,7 +1001,7 @@
     "base58prefix": 12,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
-    "liveMetaVersion": 6001000,
+    "liveMetaVersion": 6001010,
     "metadataQr": null,
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
