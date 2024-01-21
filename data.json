@@ -218,25 +218,6 @@
     },
     "testnet": false
   },
-  "heiko": {
-    "title": "Parallel Heiko",
-    "color": "#42d5de",
-    "rpcEndpoint": "wss://heiko-rpc.parallel.fi",
-    "genesisHash": "0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b",
-    "unit": "HKO",
-    "base58prefix": 110,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
-    "decimals": 12,
-    "liveMetaVersion": 204,
-    "metadataQr": null,
-    "latestMetadata": "qr/heiko_metadata_latest.apng",
-    "specsQr": {
-      "path": "qr/heiko_specs.png",
-      "signedBy": "Novasama Technologies",
-      "source": null
-    },
-    "testnet": false
-  },
   "edgeware": {
     "title": "Edgeware",
     "color": "#111111",
@@ -796,6 +777,25 @@
     "latestMetadata": "qr/composable_metadata_latest.apng",
     "specsQr": {
       "path": "qr/composable_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "node": {
+    "title": "Polkadex",
+    "color": "#7C30DD",
+    "rpcEndpoint": "wss://mainnet.polkadex.trade",
+    "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+    "unit": "PDEX",
+    "base58prefix": 88,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
+    "decimals": 12,
+    "liveMetaVersion": 317,
+    "metadataQr": null,
+    "latestMetadata": "qr/node_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/node_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
