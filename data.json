@@ -65,7 +65,7 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 1000000,
+    "liveMetaVersion": 1001000,
     "metadataQr": null,
     "latestMetadata": "qr/statemine_metadata_latest.apng",
     "specsQr": {
@@ -141,7 +141,7 @@
     "base58prefix": 5,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Shiden.svg",
     "decimals": 18,
-    "liveMetaVersion": 113,
+    "liveMetaVersion": 116,
     "metadataQr": null,
     "latestMetadata": "qr/shiden_metadata_latest.apng",
     "specsQr": {
@@ -1174,6 +1174,25 @@
     },
     "testnet": false
   },
+  "avn-parachain": {
+    "title": "Aventus",
+    "color": "#000000",
+    "rpcEndpoint": "wss://public-rpc.mainnet.aventus.io",
+    "genesisHash": "0x8b5c955b5c8fd7112562327e3859473df4e3dff49bd72a113dbb668d2cfa20d7",
+    "unit": "AVT",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Aventus.svg",
+    "decimals": 18,
+    "liveMetaVersion": 57,
+    "metadataQr": null,
+    "latestMetadata": "qr/avn-parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/avn-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "node-subtensor": {
     "title": "Bittensor",
     "color": "#000000",
@@ -1374,7 +1393,7 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Bridge_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 1000000,
+    "liveMetaVersion": 1001000,
     "metadataQr": null,
     "latestMetadata": "qr/bridge-hub-kusama_metadata_latest.apng",
     "specsQr": {
