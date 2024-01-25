@@ -629,7 +629,7 @@
     "base58prefix": 13,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Integritee.svg",
     "decimals": 12,
-    "liveMetaVersion": 41,
+    "liveMetaVersion": 42,
     "metadataQr": null,
     "latestMetadata": "qr/integritee-parachain_metadata_latest.apng",
     "specsQr": {
