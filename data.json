@@ -505,7 +505,7 @@
     "base58prefix": 2092,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kintsugi.svg",
     "decimals": 0,
-    "liveMetaVersion": 1025003,
+    "liveMetaVersion": 1025004,
     "metadataQr": null,
     "latestMetadata": "qr/kintsugi-parachain_metadata_latest.apng",
     "specsQr": {
@@ -762,18 +762,8 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/AlephZero.svg",
     "decimals": 12,
-    "liveMetaVersion": 65,
-    "metadataQr": {
-      "version": 65,
-      "file": {
-        "path": "qr/aleph-node_metadata_65.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x4235572a961dbb5327766bd0433d786c1d3b3567f2c276bb37f1e370d87c21fd"
-        }
-      }
-    },
+    "liveMetaVersion": 68,
+    "metadataQr": null,
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
       "path": "qr/aleph-node_specs.png",
@@ -1020,7 +1010,7 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ternoa.svg",
     "decimals": 18,
-    "liveMetaVersion": 24,
+    "liveMetaVersion": 25,
     "metadataQr": null,
     "latestMetadata": "qr/mainnet_metadata_latest.apng",
     "specsQr": {
@@ -1269,7 +1259,7 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Crab.svg",
     "decimals": 18,
-    "liveMetaVersion": 6511,
+    "liveMetaVersion": 6600,
     "metadataQr": null,
     "latestMetadata": "qr/crab2_metadata_latest.apng",
     "specsQr": {
