@@ -886,7 +886,7 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/MangataX.svg",
     "decimals": 18,
-    "liveMetaVersion": 3100,
+    "liveMetaVersion": 3200,
     "metadataQr": null,
     "latestMetadata": "qr/mangata-parachain_metadata_latest.apng",
     "specsQr": {
