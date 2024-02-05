@@ -65,7 +65,7 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 1001000,
+    "liveMetaVersion": 1001001,
     "metadataQr": null,
     "latestMetadata": "qr/statemine_metadata_latest.apng",
     "specsQr": {
@@ -323,7 +323,7 @@
     "base58prefix": 78,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Calamari.svg",
     "decimals": 12,
-    "liveMetaVersion": 4600,
+    "liveMetaVersion": 4610,
     "metadataQr": null,
     "latestMetadata": "qr/calamari_metadata_latest.apng",
     "specsQr": {
