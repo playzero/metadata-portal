@@ -1326,6 +1326,35 @@
     },
     "testnet": false
   },
+  "giant-runtime": {
+    "title": "GIANT",
+    "color": "#45B549",
+    "rpcEndpoint": "wss://rpc-anchor-1-giant-mainnet-ue1.giantprotocol.org:443",
+    "genesisHash": "0x49f4849244114177544d73d2412289f6d73a892b9eb1ca97cef81c9c0c9ec0ff",
+    "unit": "GIANT",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Giant.svg",
+    "decimals": 12,
+    "liveMetaVersion": 120,
+    "metadataQr": {
+      "version": 120,
+      "file": {
+        "path": "qr/giant-runtime_metadata_120.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x8b87d1da06736a2983e92621142ef9085438ebf0a1e169f4ec6552f9ff77561d"
+        }
+      }
+    },
+    "latestMetadata": "qr/giant-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/giant-runtime_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "bridge-hub-polkadot": {
     "title": "Polkadot Bridge Hub",
     "color": "#2B73C5",
