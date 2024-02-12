@@ -1126,6 +1126,25 @@
     },
     "testnet": false
   },
+  "pendulum": {
+    "title": "Pendulum",
+    "color": "#49E2FD",
+    "rpcEndpoint": "wss://rpc-pendulum.prd.pendulumchain.tech",
+    "genesisHash": "0x5d3c298622d5634ed019bf61ea4b71655030015bde9beb0d6a24743714462c86",
+    "unit": "PEN",
+    "base58prefix": 56,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
+    "decimals": 12,
+    "liveMetaVersion": 12,
+    "metadataQr": null,
+    "latestMetadata": "qr/pendulum_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/pendulum_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "polkadot-crust-parachain": {
     "title": "Crust",
     "color": "#000000",
@@ -1226,6 +1245,25 @@
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ajuna_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "poscan-runtime": {
+    "title": "3DPass",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc2.3dpass.org",
+    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
+    "unit": "P3D",
+    "base58prefix": 71,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
+    "decimals": 12,
+    "liveMetaVersion": 120,
+    "metadataQr": null,
+    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/poscan-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
