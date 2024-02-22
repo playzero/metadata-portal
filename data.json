@@ -1230,7 +1230,7 @@
     "base58prefix": 1328,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
     "decimals": 12,
-    "liveMetaVersion": 120,
+    "liveMetaVersion": 203,
     "metadataQr": null,
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
