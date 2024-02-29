@@ -294,18 +294,8 @@
     "base58prefix": 38,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/KILT_Spiritnet.svg",
     "decimals": 15,
-    "liveMetaVersion": 11110,
-    "metadataQr": {
-      "version": 11110,
-      "file": {
-        "path": "qr/kilt-spiritnet_metadata_11110.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x42b1fa306ce4f11915cfb2f99d51f6afeccfb0eec707f7e789a804e07b46b398"
-        }
-      }
-    },
+    "liveMetaVersion": 11210,
+    "metadataQr": null,
     "latestMetadata": "qr/kilt-spiritnet_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kilt-spiritnet_specs.png",
@@ -1235,6 +1225,25 @@
     "latestMetadata": "qr/ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/ajuna_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "poscan-runtime": {
+    "title": "3DPass",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc2.3dpass.org",
+    "genesisHash": "0x6c5894837ad89b6d92b114a2fb3eafa8fe3d26a54848e3447015442cd6ef4e66",
+    "unit": "P3D",
+    "base58prefix": 71,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
+    "decimals": 12,
+    "liveMetaVersion": 121,
+    "metadataQr": null,
+    "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/poscan-runtime_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
