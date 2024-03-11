@@ -198,18 +198,8 @@
     "base58prefix": 136,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Altair.svg",
     "decimals": 18,
-    "liveMetaVersion": 1027,
-    "metadataQr": {
-      "version": 1027,
-      "file": {
-        "path": "qr/altair_metadata_1027.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x1e03bff9ed2ba83c6674d12a974224a17e54b009de68ec591e7e86e79145057a"
-        }
-      }
-    },
+    "liveMetaVersion": 1034,
+    "metadataQr": null,
     "latestMetadata": "qr/altair_metadata_latest.apng",
     "specsQr": {
       "path": "qr/altair_specs.png",
@@ -948,6 +938,25 @@
     "latestMetadata": "qr/imbue_metadata_latest.apng",
     "specsQr": {
       "path": "qr/imbue_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "gm_parachain": {
+    "title": "GM",
+    "color": "#f47b36",
+    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
+    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
+    "unit": "UNIT",
+    "base58prefix": 7013,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg",
+    "decimals": 0,
+    "liveMetaVersion": 10,
+    "metadataQr": null,
+    "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/gm_parachain_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
