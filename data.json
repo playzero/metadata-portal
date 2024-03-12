@@ -742,7 +742,7 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/AlephZero.svg",
     "decimals": 12,
-    "liveMetaVersion": 68,
+    "liveMetaVersion": 72,
     "metadataQr": null,
     "latestMetadata": "qr/aleph-node_metadata_latest.apng",
     "specsQr": {
