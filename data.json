@@ -1163,6 +1163,25 @@
     },
     "testnet": false
   },
+  "node-subtensor": {
+    "title": "Bittensor",
+    "color": "#000000",
+    "rpcEndpoint": "wss://entrypoint-finney.opentensor.ai:443",
+    "genesisHash": "0x2f0555cc76fc2840a25a6ea3b9637146806f1f44b090c175ffde2a7e5ab36c03",
+    "unit": "TAO",
+    "base58prefix": 42,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bittensor.svg",
+    "decimals": 9,
+    "liveMetaVersion": 144,
+    "metadataQr": null,
+    "latestMetadata": "qr/node-subtensor_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/node-subtensor_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "equilibrium-parachain": {
     "title": "Equilibrium",
     "color": "#000000",
@@ -1177,6 +1196,25 @@
     "latestMetadata": "qr/equilibrium-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/equilibrium-parachain_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
+  "ajuna": {
+    "title": "Ajuna",
+    "color": "#000000",
+    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
+    "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
+    "unit": "AJUN",
+    "base58prefix": 1328,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
+    "decimals": 12,
+    "liveMetaVersion": 203,
+    "metadataQr": null,
+    "latestMetadata": "qr/ajuna_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/ajuna_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
