@@ -341,7 +341,7 @@
     "base58prefix": 10,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
-    "liveMetaVersion": 2230,
+    "liveMetaVersion": 2240,
     "metadataQr": null,
     "latestMetadata": "qr/acala_metadata_latest.apng",
     "specsQr": {
