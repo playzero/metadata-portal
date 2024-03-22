@@ -943,20 +943,20 @@
     },
     "testnet": false
   },
-  "gm_parachain": {
-    "title": "GM",
-    "color": "#f47b36",
-    "rpcEndpoint": "wss://ws.gm.bldnodes.org",
-    "genesisHash": "0x19a3733beb9cb8a970a308d835599e9005e02dc007a35440e461a451466776f8",
-    "unit": "UNIT",
-    "base58prefix": 7013,
-    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/GM.svg",
-    "decimals": 0,
-    "liveMetaVersion": 10,
+  "amplitude": {
+    "title": "Amplitude",
+    "color": "#5defa7",
+    "rpcEndpoint": "wss://rpc-amplitude.pendulumchain.tech",
+    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+    "unit": "AMPE",
+    "base58prefix": 57,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
+    "decimals": 12,
+    "liveMetaVersion": 14,
     "metadataQr": null,
-    "latestMetadata": "qr/gm_parachain_metadata_latest.apng",
+    "latestMetadata": "qr/amplitude_metadata_latest.apng",
     "specsQr": {
-      "path": "qr/gm_parachain_specs.png",
+      "path": "qr/amplitude_specs.png",
       "signedBy": "Novasama Technologies",
       "source": null
     },
