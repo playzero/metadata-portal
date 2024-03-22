@@ -217,7 +217,7 @@
     "base58prefix": 110,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/ParallelHeiko.svg",
     "decimals": 12,
-    "liveMetaVersion": 204,
+    "liveMetaVersion": 205,
     "metadataQr": null,
     "latestMetadata": "qr/heiko_metadata_latest.apng",
     "specsQr": {
@@ -828,7 +828,7 @@
     "base58prefix": 31,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litentry.svg",
     "decimals": 12,
-    "liveMetaVersion": 9173,
+    "liveMetaVersion": 9175,
     "metadataQr": null,
     "latestMetadata": "qr/litentry-parachain_metadata_latest.apng",
     "specsQr": {
