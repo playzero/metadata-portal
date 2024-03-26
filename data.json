@@ -962,6 +962,25 @@
     },
     "testnet": false
   },
+  "amplitude": {
+    "title": "Amplitude",
+    "color": "#5defa7",
+    "rpcEndpoint": "wss://rpc-amplitude.pendulumchain.tech",
+    "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
+    "unit": "AMPE",
+    "base58prefix": 57,
+    "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
+    "decimals": 12,
+    "liveMetaVersion": 15,
+    "metadataQr": null,
+    "latestMetadata": "qr/amplitude_metadata_latest.apng",
+    "specsQr": {
+      "path": "qr/amplitude_specs.png",
+      "signedBy": "Novasama Technologies",
+      "source": null
+    },
+    "testnet": false
+  },
   "mainnet": {
     "title": "Ternoa",
     "color": "#d622ff",
