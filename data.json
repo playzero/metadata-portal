@@ -571,7 +571,7 @@
     "base58prefix": 28,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Subsocial_Parachain.svg",
     "decimals": 10,
-    "liveMetaVersion": 41,
+    "liveMetaVersion": 42,
     "metadataQr": null,
     "latestMetadata": "qr/subsocial-parachain_metadata_latest.apng",
     "specsQr": {
