@@ -528,7 +528,7 @@
     "base58prefix": 128,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/CLV_Parachain.svg",
     "decimals": 18,
-    "liveMetaVersion": 19,
+    "liveMetaVersion": 23,
     "metadataQr": null,
     "latestMetadata": "qr/polkadot-clover-mainnet_metadata_latest.apng",
     "specsQr": {
