@@ -1779,17 +1779,7 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/krest.svg",
     "decimals": 18,
     "liveMetaVersion": 7,
-    "metadataQr": {
-      "version": 7,
-      "file": {
-        "path": "qr/kusama-peaq-node-krest_metadata_7.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x19218f3b6592d202d990efcc1aaaa2452cd3ab59a6ad35d4e0098ad6161deedf"
-        }
-      }
-    },
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-peaq-node-krest_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-peaq-node-krest_specs.png",
@@ -1889,17 +1879,7 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Dock.svg",
     "decimals": 6,
     "liveMetaVersion": 56,
-    "metadataQr": {
-      "version": 56,
-      "file": {
-        "path": "qr/dock-pos-main-runtime_metadata_56.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x523c5f100573bf78fb45c736bb6fde2209ca0c6d66bdbcf9e6cc9d5db1fda028"
-        }
-      }
-    },
+    "metadataQr": null,
     "latestMetadata": "qr/dock-pos-main-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/dock-pos-main-runtime_specs.png",
