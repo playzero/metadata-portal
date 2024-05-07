@@ -1508,7 +1508,7 @@
     "base58prefix": 71,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
     "decimals": 12,
-    "liveMetaVersion": 125,
+    "liveMetaVersion": 126,
     "metadataQr": null,
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
