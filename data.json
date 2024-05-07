@@ -1818,7 +1818,7 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Energy_Web_X.svg",
     "decimals": 18,
-    "liveMetaVersion": 61,
+    "liveMetaVersion": 64,
     "metadataQr": null,
     "latestMetadata": "qr/polkadot-ewx-parachain_metadata_latest.apng",
     "specsQr": {
