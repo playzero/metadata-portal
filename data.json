@@ -1598,7 +1598,7 @@
     "base58prefix": 0,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadot_Bridge_Hub.svg",
     "decimals": 10,
-    "liveMetaVersion": 1002000,
+    "liveMetaVersion": 1002002,
     "metadataQr": null,
     "latestMetadata": "qr/polkadot-bridge-hub-polkadot_metadata_latest.apng",
     "specsQr": {
