@@ -1898,7 +1898,7 @@
     "base58prefix": 42,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Rococo_Testnet.svg",
     "decimals": 12,
-    "liveMetaVersion": 1011000,
+    "liveMetaVersion": 1012000,
     "metadataQr": null,
     "latestMetadata": "qr/rococo_metadata_latest.apng",
     "specsQr": {
