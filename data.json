@@ -1228,7 +1228,7 @@
     "base58prefix": 57,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
-    "liveMetaVersion": 16,
+    "liveMetaVersion": 17,
     "metadataQr": null,
     "latestMetadata": "qr/kusama-amplitude_metadata_latest.apng",
     "specsQr": {
