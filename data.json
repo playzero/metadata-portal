@@ -842,7 +842,7 @@
   "polkadot-nodle-para": {
     "title": "Nodle Parachain",
     "color": "#1ab394",
-    "rpcEndpoint": "wss://eden-rpc.dwellir.com",
+    "rpcEndpoint": "wss://nodle-parachain.api.onfinality.io/public-ws",
     "genesisHash": "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
     "unit": "NODL",
     "base58prefix": 37,
