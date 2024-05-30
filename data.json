@@ -418,18 +418,8 @@
     "base58prefix": 10,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Acala.svg",
     "decimals": 0,
-    "liveMetaVersion": 2240,
-    "metadataQr": {
-      "version": 2240,
-      "file": {
-        "path": "qr/polkadot-acala_metadata_2240.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x656c11d246dcd32d9ca1d8bc2ca76e77ad26263809213100f3495eae1cebffea"
-        }
-      }
-    },
+    "liveMetaVersion": 2250,
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-acala_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-acala_specs.png",
@@ -1432,14 +1422,24 @@
   "polkadot-ajuna": {
     "title": "Ajuna",
     "color": "#000000",
-    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
+    "rpcEndpoint": "wss://rpc-para.ajuna.network",
     "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
     "unit": "AJUN",
     "base58prefix": 1328,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
     "decimals": 12,
     "liveMetaVersion": 400,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 400,
+      "file": {
+        "path": "qr/polkadot-ajuna_metadata_400.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xfd6a715016cc5f102aba9d16def666a00596c3efe3c75e73f7df5c53b0316d8a"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-ajuna_specs.png",
@@ -1789,7 +1789,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/InvArch.svg",
     "decimals": 12,
     "liveMetaVersion": 7,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 7,
+      "file": {
+        "path": "qr/polkadot-invarch_metadata_7.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xab14fdcc047cacdaf91f003d262318828d73e514d9228ff35604dee98a8b5776"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-invarch_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-invarch_specs.png",
