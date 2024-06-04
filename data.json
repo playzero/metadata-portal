@@ -968,7 +968,7 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 360,
+    "liveMetaVersion": 361,
     "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
@@ -1508,7 +1508,7 @@
     "base58prefix": 90,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Frequency.svg",
     "decimals": 8,
-    "liveMetaVersion": 74,
+    "liveMetaVersion": 78,
     "metadataQr": null,
     "latestMetadata": "qr/polkadot-frequency_metadata_latest.apng",
     "specsQr": {
