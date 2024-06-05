@@ -1138,7 +1138,7 @@
     "base58prefix": 1337,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Bajun.svg",
     "decimals": 12,
-    "liveMetaVersion": 401,
+    "liveMetaVersion": 500,
     "metadataQr": null,
     "latestMetadata": "qr/kusama-bajun_metadata_latest.apng",
     "specsQr": {
