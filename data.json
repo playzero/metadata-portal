@@ -1402,24 +1402,14 @@
   "polkadot-ajuna": {
     "title": "Ajuna",
     "color": "#000000",
-    "rpcEndpoint": "wss://rpc-para.ajuna.network",
+    "rpcEndpoint": "wss://rpc-parachain.ajuna.network",
     "genesisHash": "0xe358eb1d11b31255a286c12e44fe6780b7edb171d657905a97e39f71d9c6c3ee",
     "unit": "AJUN",
     "base58prefix": 1328,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Ajuna.svg",
     "decimals": 12,
     "liveMetaVersion": 500,
-    "metadataQr": {
-      "version": 500,
-      "file": {
-        "path": "qr/polkadot-ajuna_metadata_500.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x27775135b7b179543098bc2df28a8c4a764c87ee8639ed2f1463884e2b951e55"
-        }
-      }
-    },
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-ajuna_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-ajuna_specs.png",
