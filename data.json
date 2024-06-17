@@ -1778,7 +1778,7 @@
     "base58prefix": 41,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polimec.svg",
     "decimals": 10,
-    "liveMetaVersion": 7002,
+    "liveMetaVersion": 7003,
     "metadataQr": null,
     "latestMetadata": "qr/polkadot-polimec-mainnet_metadata_latest.apng",
     "specsQr": {
