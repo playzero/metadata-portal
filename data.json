@@ -128,7 +128,7 @@
     "base58prefix": 1285,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonriver.svg",
     "decimals": 18,
-    "liveMetaVersion": 2901,
+    "liveMetaVersion": 3000,
     "metadataQr": null,
     "latestMetadata": "qr/kusama-moonriver_metadata_latest.apng",
     "specsQr": {
