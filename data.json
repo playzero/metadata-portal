@@ -28,7 +28,7 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama.svg",
     "decimals": 12,
-    "liveMetaVersion": 1002005,
+    "liveMetaVersion": 1002006,
     "metadataQr": null,
     "latestMetadata": "qr/kusama_metadata_latest.apng",
     "specsQr": {
@@ -68,7 +68,7 @@
     "base58prefix": 2,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Kusama_Asset_Hub.svg",
     "decimals": 12,
-    "liveMetaVersion": 1002005,
+    "liveMetaVersion": 1002006,
     "metadataQr": null,
     "latestMetadata": "qr/kusama-statemine_metadata_latest.apng",
     "specsQr": {
