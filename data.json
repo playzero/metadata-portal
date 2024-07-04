@@ -1788,7 +1788,7 @@
     "base58prefix": 77,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Manta.svg",
     "decimals": 18,
-    "liveMetaVersion": 4700,
+    "liveMetaVersion": 4710,
     "metadataQr": null,
     "latestMetadata": "qr/polkadot-manta_metadata_latest.apng",
     "specsQr": {
