@@ -948,7 +948,7 @@
     "base58prefix": 88,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polkadex.svg",
     "decimals": 12,
-    "liveMetaVersion": 368,
+    "liveMetaVersion": 369,
     "metadataQr": null,
     "latestMetadata": "qr/node_metadata_latest.apng",
     "specsQr": {
@@ -1308,18 +1308,8 @@
     "base58prefix": 55,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/XX_network.svg",
     "decimals": 9,
-    "liveMetaVersion": 205,
-    "metadataQr": {
-      "version": 205,
-      "file": {
-        "path": "qr/xxnetwork_metadata_205.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xf6abd90d7c4fd732e0dd56c13a8ff10638c709f2c20c788eee489ee8cf562488"
-        }
-      }
-    },
+    "liveMetaVersion": 206,
+    "metadataQr": null,
     "latestMetadata": "qr/xxnetwork_metadata_latest.apng",
     "specsQr": {
       "path": "qr/xxnetwork_specs.png",
