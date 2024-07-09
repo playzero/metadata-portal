@@ -969,17 +969,7 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/NeuroWeb.svg",
     "decimals": 12,
     "liveMetaVersion": 130,
-    "metadataQr": {
-      "version": 130,
-      "file": {
-        "path": "qr/polkadot-origintrail-parachain_metadata_130.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x277716f4c1f8856b206747b6d0bb9dd9aedea9398a82cbadd4059f47b652345e"
-        }
-      }
-    },
+    "metadataQr": null,
     "latestMetadata": "qr/polkadot-origintrail-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-origintrail-parachain_specs.png",
@@ -1189,7 +1179,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Amplitude.svg",
     "decimals": 12,
     "liveMetaVersion": 17,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 17,
+      "file": {
+        "path": "qr/kusama-amplitude_metadata_17.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x4b908b3a45f409e4820439a6c4f373150332e36f599fa108b7f7b9a54d266517"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-amplitude_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-amplitude_specs.png",
@@ -1329,7 +1329,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Pendulum.svg",
     "decimals": 12,
     "liveMetaVersion": 17,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 17,
+      "file": {
+        "path": "qr/polkadot-pendulum_metadata_17.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xcc12a58037630009d1bc35d8951a78cc02bd140e1b2701f93e1b80061ad8e973"
+        }
+      }
+    },
     "latestMetadata": "qr/polkadot-pendulum_metadata_latest.apng",
     "specsQr": {
       "path": "qr/polkadot-pendulum_specs.png",
