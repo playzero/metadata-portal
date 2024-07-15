@@ -108,7 +108,7 @@
     "base58prefix": 1284,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Moonbeam.svg",
     "decimals": 18,
-    "liveMetaVersion": 2901,
+    "liveMetaVersion": 3001,
     "metadataQr": null,
     "latestMetadata": "qr/polkadot-moonbeam_metadata_latest.apng",
     "specsQr": {
@@ -208,18 +208,8 @@
     "base58prefix": 136,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Altair.svg",
     "decimals": 18,
-    "liveMetaVersion": 1034,
-    "metadataQr": {
-      "version": 1034,
-      "file": {
-        "path": "qr/kusama-altair_metadata_1034.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x3f1e0c31add562b8ef45de464b592b48d2f90362356f5bf6f2e3a386851944a3"
-        }
-      }
-    },
+    "liveMetaVersion": 1200,
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-altair_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-altair_specs.png",
@@ -1218,7 +1208,7 @@
     "base58prefix": 12,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Polymesh.svg",
     "decimals": 6,
-    "liveMetaVersion": 6003010,
+    "liveMetaVersion": 6003020,
     "metadataQr": null,
     "latestMetadata": "qr/polymesh_mainnet_metadata_latest.apng",
     "specsQr": {
@@ -1399,7 +1389,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
     "decimals": 12,
     "liveMetaVersion": 128,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 128,
+      "file": {
+        "path": "qr/poscan-runtime_metadata_128.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0xaf4fe8ed5968b437230aafcaf0e82859b2d6d6ff4160c560e99fd0acabc3636e"
+        }
+      }
+    },
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/poscan-runtime_specs.png",
