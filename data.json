@@ -649,7 +649,17 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Litmus.svg",
     "decimals": 12,
     "liveMetaVersion": 9180,
-    "metadataQr": null,
+    "metadataQr": {
+      "version": 9180,
+      "file": {
+        "path": "qr/kusama-litmus-parachain_metadata_9180.apng",
+        "signedBy": "Novasama Technologies",
+        "source": {
+          "type": "Rpc",
+          "block": "0x0a1d64ac109fc790f7eb5fcf78f1daf39187598846eea81c9e989d0ae947422f"
+        }
+      }
+    },
     "latestMetadata": "qr/kusama-litmus-parachain_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-litmus-parachain_specs.png",
@@ -1389,17 +1399,7 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/3DPass.svg",
     "decimals": 12,
     "liveMetaVersion": 128,
-    "metadataQr": {
-      "version": 128,
-      "file": {
-        "path": "qr/poscan-runtime_metadata_128.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0xaf4fe8ed5968b437230aafcaf0e82859b2d6d6ff4160c560e99fd0acabc3636e"
-        }
-      }
-    },
+    "metadataQr": null,
     "latestMetadata": "qr/poscan-runtime_metadata_latest.apng",
     "specsQr": {
       "path": "qr/poscan-runtime_specs.png",
