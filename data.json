@@ -1148,7 +1148,7 @@
     "base58prefix": 117,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Tinkernet.svg",
     "decimals": 12,
-    "liveMetaVersion": 23,
+    "liveMetaVersion": 24,
     "metadataQr": null,
     "latestMetadata": "qr/kusama-tinkernet_node_metadata_latest.apng",
     "specsQr": {
