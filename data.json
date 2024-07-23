@@ -328,7 +328,7 @@
     "base58prefix": 78,
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Calamari.svg",
     "decimals": 12,
-    "liveMetaVersion": 4700,
+    "liveMetaVersion": 4720,
     "metadataQr": null,
     "latestMetadata": "qr/kusama-calamari_metadata_latest.apng",
     "specsQr": {
