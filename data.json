@@ -209,17 +209,7 @@
     "icon": "https://raw.githubusercontent.com/novasamatech/nova-utils/master/icons/chains/gradient/Altair.svg",
     "decimals": 18,
     "liveMetaVersion": 1200,
-    "metadataQr": {
-      "version": 1200,
-      "file": {
-        "path": "qr/kusama-altair_metadata_1200.apng",
-        "signedBy": "Novasama Technologies",
-        "source": {
-          "type": "Rpc",
-          "block": "0x9a95147f659dadd3d6689bca64d4fb8bc6ce1f8e657f1bed079ea47e84fadef0"
-        }
-      }
-    },
+    "metadataQr": null,
     "latestMetadata": "qr/kusama-altair_metadata_latest.apng",
     "specsQr": {
       "path": "qr/kusama-altair_specs.png",
